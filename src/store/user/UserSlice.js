@@ -10,3 +10,5 @@ const userSlice = createSlice({
     status: "",
   },
 });
+
+export default userSlice.reducer;
