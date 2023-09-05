@@ -86,32 +86,3 @@
   line-height: 30.132px;
   text-decoration-line: underline;
 }
-
-.block {
-  display: flex;
-  align-items: center;
-  background-color: #f0f0f0;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.block-image {
-  max-width: 100%;
-  height: auto;
-  margin-right: 20px; /* Расстояние между изображением и текстом */
-}
-
-.block-content {
-  flex: 1;
-}
-
-.block h2 {
-  margin: 0;
-  font-size: 24px;
-}
-
-.block p {
-  margin: 0;
-}

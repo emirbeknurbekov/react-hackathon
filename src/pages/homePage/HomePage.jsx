@@ -1,13 +1,11 @@
 import React from "react";
 import "./HomePage.css";
-import CarouselHomePage from "../../components/home/Carousel/Carousel";
-import bannerImgFirst from "../../images/banner-img1.png";
-import bannerImgSecond from "../../images/banners-img2.svg";
+import Carousel from "../../components/home/carousel/Carousel";
 
 const HomePage = () => {
   return (
     <>
-      <CarouselHomePage />
+      <Carousel />
       <div className="home-pages__banners__block">
         <div className="home-pages__banners__block_first">
           <h2 className="home-pages__banners__block_first__header">
@@ -36,14 +34,6 @@ const HomePage = () => {
           <h2 className="home-pages__banners__block_second__link">
             Explore Items
           </h2>
-        </div>
-      </div>
-
-      <div className="block">
-        <img src="your-image.jpg" alt="Image" className="block-image" />
-        <div className="block-content">
-          <h2>Title</h2>
-          <p>Description text goes here.</p>
         </div>
       </div>
     </>
