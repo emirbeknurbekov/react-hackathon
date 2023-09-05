@@ -1,10 +1,19 @@
 import React from "react";
-import logo from "../../icons/Logo.svg";
+
 import SearchIcon from "@mui/icons-material/Search";
 import { styled, alpha } from "@mui/material/styles";
 import InputBase from "@mui/material/InputBase";
 
+import "./navbar.css";
+import logo from "../../icons/Logo.svg";
+import favouritesIcon from "../../icons/favorites-icon.svg";
+import cartIcon from "../../icons/cart-icon.svg";
+import userIcon from "../../icons/user-icon.svg";
+
+import { useNavigate } from "react-router-dom";
+
 const Navbar = () => {
+  const navigate = useNavigate();
   const SearchIconWrapper = styled("div")(({ theme }) => ({
     padding: theme.spacing(0, 2),
     height: "100%",
@@ -18,7 +27,7 @@ const Navbar = () => {
   const Search = styled("div")(({ theme }) => ({
     position: "relative",
     borderRadius: theme.shape.borderRadius,
-    backgroundColor: alpha(theme.palette.common.white, 0.15),
+    backgroundColor: "#F6F6F6",
     "&:hover": {
       backgroundColor: alpha(theme.palette.common.white, 0.25),
     },
@@ -48,10 +57,10 @@ const Navbar = () => {
   return (
     <div className="container">
       <div className="navbar-logo">
-        <img src={logo} alt="" />
+        <img onClick={() => navigate("/")} src={logo} alt="" />
       </div>
       <ul className="navbar-items">
-        <li className="navbar-item">Shop</li>
+        <li className="navbar-item ">Shop</li>
         <li className="navbar-item">Men</li>
         <li className="navbar-item">Women</li>
         <li className="navbar-item">Combos</li>
@@ -68,7 +77,17 @@ const Navbar = () => {
           />
         </Search>
       </div>
-      <div className="navbar-account__block"></div>
+      <ul className="navbar-account__block">
+        <li className="navbar-account__item">
+          <img src={favouritesIcon} alt="" />
+        </li>
+        <li className="navbar-account__item">
+          <img src={userIcon} alt="" />
+        </li>
+        <li className="navbar-account__item">
+          <img src={cartIcon} alt="" />
+        </li>
+      </ul>
     </div>
   );
 };

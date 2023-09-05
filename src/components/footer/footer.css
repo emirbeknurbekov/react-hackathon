@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+  font-family: "Kanit";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.44px;
+}
+.footer {
+  background: #3c4242;
+}
+.footer__block_first {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5.5%;
+  flex-wrap: wrap;
+}
+.footer-info__block {
+  max-width: 12%;
+}
+#location {
+  max-width: 35%;
+}
+.footer-info__block__title {
+  color: #f6f6f6;
+  font-size: 1.3em;
+  font-weight: 500;
+  line-height: 216.9%;
+}
+.footer-info__block__items li {
+  color: #f6f6f6;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 216.9%;
+}
+
+.footer__block_second {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer__block_second__social__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+}
+.footer__block_second__social__item {
+  cursor: pointer;
+}
+.footer__block_second__download__header {
+  color: #f6f6f6;
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 216.9%; /* 61.988px */
+}
+.footer__block_second__download__btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+.footer__block_second__download__btn {
+  cursor: pointer;
+}
