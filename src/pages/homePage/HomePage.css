@@ -1,5 +1,117 @@
-* {
+.home-pages__banners__block {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+  align-items: center;
+}
+.home-pages__banners__block_first {
+  background: url("../../images/banner-img1.png") no-repeat;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  padding: 6% 27% 6% 3%;
+  margin: 14% 0 10% 0;
+  border-radius: 12px;
+}
+.home-pages__banners__block_first__header {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 30.067px;
+  letter-spacing: 0.251px;
+}
+.home-pages__banners__block_first__subheader {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: 800;
+  line-height: 45.1px;
+}
+.home-pages__banners__block_first__descr {
+  color: #fff;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25.056px;
+  letter-spacing: 0.251px;
+}
+.home-pages__banners__block_first__link {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 30.132px;
+  text-decoration-line: underline;
+}
+.home-pages__banners__block_second {
+  background: url("../../images/banners-img2.svg") no-repeat;
+  width: 45%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  padding: 7.3% 22% 5.5% 2%;
+  margin: 13.5% 0 10% 0;
+  border-radius: 14px;
+}
+.home-pages__banners__block_second__header {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 30.067px;
+  letter-spacing: 0.251px;
+}
+.home-pages__banners__block_second__subheader {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 45.1px;
+  width: 100%;
+}
+.home-pages__banners__block_second__descr {
+  color: #fff;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25.056px;
+  letter-spacing: 0.251px;
+}
+.home-pages__banners__block_second__link {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 30.132px;
+  text-decoration-line: underline;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.block-image {
+  max-width: 100%;
+  height: auto;
+  margin-right: 20px; /* Расстояние между изображением и текстом */
+}
+
+.block-content {
+  flex: 1;
+}
+
+.block h2 {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  font-size: 24px;
+}
+
+.block p {
+  margin: 0;
 }
