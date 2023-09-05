@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomePage.css";
-import CarouselHomePage from "../../components/home/CarouselHomePage";
+import CarouselHomePage from "../../components/home/Carousel.jsx/CarouselHomePage";
 
 const HomePage = () => {
   return (
