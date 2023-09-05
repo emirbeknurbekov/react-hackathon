@@ -1,8 +1,13 @@
 import React from "react";
 import "./HomePage.css";
+import CarouselHomePage from "../../components/home/CarouselHomePage";
 
 const HomePage = () => {
-  return <></>;
+  return (
+    <>
+      <CarouselHomePage />
+    </>
+  );
 };
 
 export default HomePage;
