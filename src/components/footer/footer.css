@@ -1,4 +1,7 @@
-* {
+*,
+ol,
+ul,
+li {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,6 +12,8 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.44px;
+  list-style-type: none;
+  text-decoration: none;
 }
 .footer {
   background: #3c4242;
@@ -16,6 +21,7 @@
 .footer__block_first {
   max-width: 90%;
   margin: 0 auto;
+  padding-top: 4%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -33,6 +39,11 @@
   font-size: 1.3em;
   font-weight: 500;
   line-height: 216.9%;
+}
+.footer-info__block__items {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 .footer-info__block__items li {
   color: #f6f6f6;
@@ -69,4 +80,71 @@
 }
 .footer__block_second__download__btn {
   cursor: pointer;
+}
+
+.custom-accordion {
+  background: #3c4242;
+  margin-top: 3%;
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-top: 1px solid #bebcbd;
+  opacity: 0.4;
+  border-bottom: 1px solid #bebcbd;
+  background: #3c4242;
+  margin-top: 0;
+  max-width: 80%;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 200%;
+}
+.accordion-item:first-of-type .accordion-button {
+  outline: none;
+  color: #bebcbd;
+  border-top: 1px solid #bebcbd;
+  opacity: 0.4;
+  border-bottom: 1px solid #bebcbd;
+  background: #3c4242;
+  margin-top: 0;
+  max-width: 80%;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 200%;
+}
+.accordion-button::after {
+  color: #f6f6f6;
+  outline: none;
+}
+.custom-accordion .accordion-item {
+  border: none;
+  box-shadow: none;
+}
+.custom-accordion .accordion-item:focus {
+  outline: none;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-body {
+  max-width: 80%;
+  margin: 0 auto;
+  font-weight: 300;
+  line-height: 200%;
+}
+.accordion-body h2 {
+  color: #bebcbd;
+  font-size: 1.5rem;
+}
+.footer__block_fourth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+.footer__block_fourth__title {
+  color: #bebcbd;
+  font-size: 1.2rem;
+  font-weight: 300;
 }

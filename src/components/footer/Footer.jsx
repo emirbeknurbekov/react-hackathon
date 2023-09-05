@@ -1,5 +1,6 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./footer.css";
 
 import facebookIcon from "../../icons/facebook-icon__footer.svg";
@@ -86,14 +87,21 @@ const Footer = () => {
       </div>
 
       <div className="footer__block_third">
-        <Accordion defaultActiveKey={["0"]} alwaysOpen>
-          <Accordion.Item eventKey="0">
-            <Accordion.Header>Accordion Item #1</Accordion.Header>
+        <Accordion className="custom-accordion" defaultActiveKey={["1"]}>
+          <Accordion.Item className="custom-accordion" eventKey="0">
+            <Accordion.Header>Popular Categories</Accordion.Header>
             <Accordion.Body>
-              <li>Joggers</li>
+              <h2>Joggers</h2>
+              <h2>T-shirts</h2>
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
+      </div>
+
+      <div className="footer__block_fourth">
+        <h2 className="footer__block_fourth__title">
+          Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.
+        </h2>
       </div>
     </div>
   );
