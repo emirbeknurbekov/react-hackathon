@@ -4,7 +4,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import { styled, alpha } from "@mui/material/styles";
 import InputBase from "@mui/material/InputBase";
 
-import "./navbar.css";
+import "./Navbar.css";
 import logo from "../../icons/Logo.svg";
 import favouritesIcon from "../../icons/favorites-icon.svg";
 import cartIcon from "../../icons/cart-icon.svg";

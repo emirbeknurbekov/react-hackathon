@@ -18,7 +18,6 @@ ul {
   align-items: center;
   max-width: 90%;
   max-height: 16vh;
-  margin: 0 auto;
   background: #fff;
 }
 .navbar-logo {
@@ -42,9 +41,10 @@ ul {
 .navbar-account__block {
   display: flex;
   justify-content: center;
-  gap: 10%;
   align-items: center;
+  gap: 10%;
   margin-left: -19%;
+  margin-top: 1.5%;
 }
 .navbar-account__item {
   display: flex;
@@ -57,5 +57,5 @@ ul {
   cursor: pointer;
 }
 .navbar-account__item img {
-  width: 25px;
+  width: 18px;
 }

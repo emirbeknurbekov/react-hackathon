@@ -1,7 +1,7 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./footer.css";
+import "./Footer.css";
 
 import facebookIcon from "../../icons/facebook-icon__footer.svg";
 import instagramIcon from "../../icons/instagram-icon__footer.svg";
