@@ -1,0 +1,37 @@
+{
+    "clothers":[
+        {
+            "id":1,
+            "name":"Black Sweatshirt with",
+            "picture":"https://www.google.com/search?q=Black+Sweatshirt+with&client=firefox-b-d&sca_esv=562751389&sxsrf=AB5stBhe7O_04Z96KAkqxluQCjEQcJHQUw%3A1693925609864&ei=6UD3ZLWoNJXVwPAP4NS4qAw&ved=0ahUKEwj1wIHS3JOBAxWVKhAIHWAqDsUQ4dUDCA8&uact=5&oq=Black+Sweatshirt+with&gs_lp=Egxnd3Mtd2l6LXNlcnAiFUJsYWNrIFN3ZWF0c2hpcnQgd2l0aDIEECMYJzIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABEjnDVDLAljsC3ABeAGQAQCYAdoBoAGlB6oBBTAuNC4xuAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICBhAAGBYYHuIDBBgAIEGIBgGQBgg&sclient=gws-wiz-serp&bshm=rime/1#vhid=4klmArvX9OLKfM&vssid=l",
+            "description":"",
+            "price":5200,
+            "type":"Womens Clothong"
+        },
+        {
+            "id":1,
+            "name":"Black Sweatshirt with",
+            "picture":"https://www.google.com/search?q=Black+Sweatshirt+with&client=firefox-b-d&sca_esv=562751389&sxsrf=AB5stBhe7O_04Z96KAkqxluQCjEQcJHQUw%3A1693925609864&ei=6UD3ZLWoNJXVwPAP4NS4qAw&ved=0ahUKEwj1wIHS3JOBAxWVKhAIHWAqDsUQ4dUDCA8&uact=5&oq=Black+Sweatshirt+with&gs_lp=Egxnd3Mtd2l6LXNlcnAiFUJsYWNrIFN3ZWF0c2hpcnQgd2l0aDIEECMYJzIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABEjnDVDLAljsC3ABeAGQAQCYAdoBoAGlB6oBBTAuNC4xuAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICBhAAGBYYHuIDBBgAIEGIBgGQBgg&sclient=gws-wiz-serp&bshm=rime/1#vhid=4klmArvX9OLKfM&vssid=l",
+            "description":"",
+            "price":5200,
+            "type":"Womens Clothong"
+        },
+        {
+            "id":1,
+            "name":"Black Sweatshirt with",
+            "picture":"https://www.google.com/search?q=Black+Sweatshirt+with&client=firefox-b-d&sca_esv=562751389&sxsrf=AB5stBhe7O_04Z96KAkqxluQCjEQcJHQUw%3A1693925609864&ei=6UD3ZLWoNJXVwPAP4NS4qAw&ved=0ahUKEwj1wIHS3JOBAxWVKhAIHWAqDsUQ4dUDCA8&uact=5&oq=Black+Sweatshirt+with&gs_lp=Egxnd3Mtd2l6LXNlcnAiFUJsYWNrIFN3ZWF0c2hpcnQgd2l0aDIEECMYJzIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABEjnDVDLAljsC3ABeAGQAQCYAdoBoAGlB6oBBTAuNC4xuAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICBhAAGBYYHuIDBBgAIEGIBgGQBgg&sclient=gws-wiz-serp&bshm=rime/1#vhid=4klmArvX9OLKfM&vssid=l",
+            "description":"",
+            "price":5200,
+            "type":"Womens Clothong"
+        },
+        {
+            "id":1,
+            "name":"Black Sweatshirt with",
+            "picture":"https://www.google.com/search?q=Black+Sweatshirt+with&client=firefox-b-d&sca_esv=562751389&sxsrf=AB5stBhe7O_04Z96KAkqxluQCjEQcJHQUw%3A1693925609864&ei=6UD3ZLWoNJXVwPAP4NS4qAw&ved=0ahUKEwj1wIHS3JOBAxWVKhAIHWAqDsUQ4dUDCA8&uact=5&oq=Black+Sweatshirt+with&gs_lp=Egxnd3Mtd2l6LXNlcnAiFUJsYWNrIFN3ZWF0c2hpcnQgd2l0aDIEECMYJzIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABEjnDVDLAljsC3ABeAGQAQCYAdoBoAGlB6oBBTAuNC4xuAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICBhAAGBYYHuIDBBgAIEGIBgGQBgg&sclient=gws-wiz-serp&bshm=rime/1#vhid=4klmArvX9OLKfM&vssid=l",
+            "description":"",
+            "price":5200,
+            "type":"Womens Clothong"
+        }
+    ],
+    "jeans":[]
+}
