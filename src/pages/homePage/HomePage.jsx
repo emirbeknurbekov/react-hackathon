@@ -1,6 +1,7 @@
 import React from "react";
 import "./HomePage.css";
 import Carousel from "../../components/home/carousel/Carousel";
+import AdvertisingBlock from "../../components/home/advertisingBlock/AdvertisingBlock";
 
 const HomePage = () => {
   return (
@@ -36,6 +37,8 @@ const HomePage = () => {
           </h2>
         </div>
       </div>
+
+      <AdvertisingBlock />
     </>
   );
 };
