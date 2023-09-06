@@ -1,0 +1,246 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Login.module.css */
+
+/* Стили для контейнера формы входа */
+.signInContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #f0f0f0;
+  }
+  
+  /* Стили для заголовка формы входа и верхней части */
+  .signInHeader {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  /* Дополнительные стили для элементов внутри заголовка */
+  .signInHeader img {
+    width: 100px;
+    height: 50px;
+  }
+  
+  /* Стили для поля поиска */
+  .signInSearchBox {
+    flex-grow: 1;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .signInSearch {
+    width: 35%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    
+  }
+  
+  /* Стили для выпадающего списка выбора языка */
+  .signInSelect {
+    font-size: 16px;
+    margin-right: 300px;
+    background-color:transparent;
+
+  }
+  
+  /* Стили для кнопок входа и регистрации */
+  .logInBtn
+   {
+    font-size: 16px;
+    color: #8A33FD;
+    margin-right: 100px;
+ 
+  }
+  .signUpBtn {
+    background-color:#8A33FD;
+    color:#ffffff;
+    margin-right: 100px;
+    margin-left: -90px;
+  }
+  .signUpBtn,.logInBtn{
+    border:1px solid black;
+    width: 140px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  .signUpBtn:hover,.logInBtn:hover{
+    background-color:#f0f0f0;
+    color:black;
+  }
+  
+  .signInMainContent{
+    width: 100%;
+    display: flex;
+  }
+/* Стили для изображения на странице */
+.signInPageImg{
+    width: 50%;
+}
+  
+  /* Стили для блока страницы формы входа */
+  .signInPageBox {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 50%;
+  }
+  
+  /* Стили для заголовка страницы формы входа */
+  .signInPageTitle {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+  }
+  
+  /* Стили для кнопок "Продолжить с Google" и "Продолжить с Twitter" */
+  .signInPageBtns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .signInGoogleBtn,
+  .signInTwitterBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 70%;
+  }
+  
+  .signInGoogleBtn img,
+  .signInTwitterBtn img {
+    margin-right: 10px;
+  }
+  
+  .signInGoogleBtn:hover,
+  .signInTwitterBtn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Стили для линии "OR" */
+  .signInLine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+  
+  .line {
+    flex-grow: 1;
+    border: 1px solid #ccc;
+  }
+  .signUpPasswordBox {
+    margin-top: 50px;
+  }
+
+  
+  .signInEmailInput,
+  .signInPasswordInput {
+    width: 70%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .signUpPasswordInputP{
+    margin-right: 430px;
+    font-family:'Arial Narrow', Arial, sans-serif;
+  }
+  .signUpEmailInputP{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    margin-right: 400px;
+  }
+  
+  .signUpP{
+    font-size: 14px;
+    margin-right: 95px;
+  }
+
+  .signUpCheckBoxes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    
+  }
+
+  .signInInputsBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  }
+  
+  /* Стили для кнопки "Войти" */
+  .signInBtn {
+    width: 30%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #8A33FD;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    
+  }
+  
+  .signInBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Стили для текста "Нет аккаунта? Зарегистрироваться" */
+  .signUpLink {
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .signUpLink a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .signUpLink a:hover {
+    text-decoration: underline;
+  }
+  
