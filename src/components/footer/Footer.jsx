@@ -89,7 +89,7 @@ const Footer = () => {
       <div className="footer__block_third">
         <Accordion className="custom-accordion" defaultActiveKey={["1"]}>
           <Accordion.Item className="custom-accordion" eventKey="0">
-            <Accordion.Header>Popular Categories</Accordion.Header>
+            <Accordion.Header>cds</Accordion.Header>
             <Accordion.Body>
               <h2>Joggers</h2>
               <h2>T-shirts</h2>
