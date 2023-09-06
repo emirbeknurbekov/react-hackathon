@@ -75,13 +75,41 @@ const advertisingBlock = () => {
           <div className="homepages__advertising__block_second">
             <div className="homepages__advertising__block_second__item">
               <div className="homepages__advertising__block_second__content">
-                <h2 className="homepages__advertising__block_second__header"></h2>
-                <h3 className="homepages__advertising__block_second__subheader"></h3>
-                <h3 className="homepages__advertising__block_second__link"></h3>
+                <h2 className="homepages__advertising__block_second__header">
+                  Urban Shirts
+                </h2>
+                <h3 className="homepages__advertising__block_second__subheader">
+                  Live in Confort
+                </h3>
+                <h3 className="homepages__advertising__block_second__link">
+                  FLAT 60% OFF
+                </h3>
                 <div className="homepages__advertising__block_second__icon">
-                  <img src="" alt="" />
-                  <button className="homepages__advertising__block_second__btn"></button>
+                  <img src={advertisingIconDark} alt="error" />
                 </div>
+                <button className="homepages__advertising__block_second__btn">
+                  SHOP NOW
+                </button>
+              </div>
+            </div>
+
+            <div className="homepages__advertising__block_second__item__second">
+              <div className="homepages__advertising__block_second__content__second">
+                <h2 className="homepages__advertising__block_second__header__second">
+                  Oversized T-Shirts
+                </h2>
+                <h3 className="homepages__advertising__block_second__subheader__second">
+                  Street Style Icon
+                </h3>
+                <h3 className="homepages__advertising__block_second__link__second">
+                  FLAT 60% OFF
+                </h3>
+                <div className="homepages__advertising__block_second__icon__second">
+                  <img src={advertisingIconDark} alt="error" />
+                </div>
+                <button className="homepages__advertising__block_second__btn__second">
+                  SHOP NOW
+                </button>
               </div>
             </div>
           </div>
