@@ -1,0 +1,39 @@
+.brands__container {
+  max-width: 90%;
+  margin: 0 auto;
+  border-radius: 12px;
+  border: 1.069px solid var(--Dark-Grey---Fashion, #323232);
+  background: #3c4242;
+}
+.brands__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+}
+.brands__header {
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.brands__subheader {
+  color: #fff;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.brands__subheader span {
+  color: #fbd103;
+  font-weight: 700;
+}
+.brands__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+.brands__img {
+  width: 20%;
+}

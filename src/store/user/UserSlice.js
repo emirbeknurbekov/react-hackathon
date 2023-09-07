@@ -1,6 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-
 const userSlice = createSlice({
   name: "users",
   initialState: {
@@ -11,4 +10,3 @@ const userSlice = createSlice({
 });
 
 export default userSlice.reducer;
-// export default userSlice.actions; // TODO: Kairat: Resolve

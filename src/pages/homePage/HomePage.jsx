@@ -5,14 +5,15 @@ import AdvertisingBlock from "../../components/home/advertisingBlock/Advertising
 import BannerBlock from "../../components/home/bannerBlock/BannerBlock";
 import MenCategories from "../../components/home/MenCategories/MenCategories";
 import WomenCategories from "../../components/home/womenCategories/WomenCategories";
+import BrandsBlock from "../../components/home/brandsBlock/Brands";
 
 const HomePage = () => {
   return (
     <>
-      {/* <Carousel /> */}
+      <Carousel />
       <MenCategories />
 
-      {/* <div className="home-pages__banners__block">
+      <div className="home-pages__banners__block">
         <div className="home-pages__banners__block_first">
           <h2 className="home-pages__banners__block_first__header">
             Low Price
@@ -41,11 +42,12 @@ const HomePage = () => {
             Explore Items
           </h2>
         </div>
-      </div> */}
+      </div>
 
-      {/* <AdvertisingBlock /> */}
-      {/* <BannerBlock /> */}
+      <AdvertisingBlock />
+      <BannerBlock />
       <WomenCategories />
+      <BrandsBlock />
     </>
   );
 };

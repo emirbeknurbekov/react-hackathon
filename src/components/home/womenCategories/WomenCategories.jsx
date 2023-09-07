@@ -17,7 +17,9 @@ const WomenCategories = () => {
             <img src={WomenCategoriesImgFirst} alt="error" />
             <div className="womenctgrs__content">
               <div className="womenctgrs__title">
-                <h2 className="womenctgrs__title__header">Activewear</h2>
+                <h2 className="womenctgrs__title__header">
+                  Hoodies & Sweetshirts
+                </h2>
                 <p className="womenctgrs__title__descr">Explore Now!</p>
               </div>
               <button className="womenctgrs__btn">
@@ -32,7 +34,7 @@ const WomenCategories = () => {
             <img src={WomenCategoriesImgSecond} alt="error" />
             <div className="womenctgrs__content">
               <div className="womenctgrs__title">
-                <h2 className="womenctgrs__title__header">Activewear</h2>
+                <h2 className="womenctgrs__title__header">Coats & Parkas</h2>
                 <p className="womenctgrs__title__descr">Explore Now!</p>
               </div>
               <button className="womenctgrs__btn">
@@ -47,7 +49,7 @@ const WomenCategories = () => {
             <img src={WomenCategoriesImgThird} alt="error" />
             <div className="womenctgrs__content">
               <div className="womenctgrs__title">
-                <h2 className="womenctgrs__title__header">Activewear</h2>
+                <h2 className="womenctgrs__title__header">Tees & T-shirt</h2>
                 <p className="womenctgrs__title__descr">Explore Now!</p>
               </div>
               <button className="womenctgrs__btn">
@@ -62,7 +64,7 @@ const WomenCategories = () => {
             <img src={WomenCategoriesImgFourth} alt="error" />
             <div className="womenctgrs__content">
               <div className="womenctgrs__title">
-                <h2 className="womenctgrs__title__header">Activewear</h2>
+                <h2 className="womenctgrs__title__header">Boxers</h2>
                 <p className="womenctgrs__title__descr">Explore Now!</p>
               </div>
               <button className="womenctgrs__btn">
