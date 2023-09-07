@@ -4,12 +4,15 @@ import Carousel from "../../components/home/carousel/Carousel";
 import AdvertisingBlock from "../../components/home/advertisingBlock/AdvertisingBlock";
 import BannerBlock from "../../components/home/bannerBlock/BannerBlock";
 import MenCategories from "../../components/home/MenCategories/MenCategories";
+import WomenCategories from "../../components/home/womenCategories/WomenCategories";
 
 const HomePage = () => {
   return (
     <>
-      <Carousel />
-      <div className="home-pages__banners__block">
+      {/* <Carousel /> */}
+      <MenCategories />
+
+      {/* <div className="home-pages__banners__block">
         <div className="home-pages__banners__block_first">
           <h2 className="home-pages__banners__block_first__header">
             Low Price
@@ -38,11 +41,11 @@ const HomePage = () => {
             Explore Items
           </h2>
         </div>
-      </div>
+      </div> */}
 
-      <AdvertisingBlock />
-      <BannerBlock />
-      <MenCategories />
+      {/* <AdvertisingBlock /> */}
+      {/* <BannerBlock /> */}
+      <WomenCategories />
     </>
   );
 };

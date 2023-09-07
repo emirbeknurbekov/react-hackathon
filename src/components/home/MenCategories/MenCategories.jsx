@@ -37,7 +37,7 @@ const MenCategories = () => {
               <img src={menCategoriesImgSecond} alt="error" />
               <div className="menctgrs__content">
                 <div className="menctgrs__title">
-                  <h2 className="menctgrs__title__header">Shirts</h2>
+                  <h2 className="menctgrs__title__header"> Printed T-Shirts</h2>
                   <p className="menctgrs__title__descr">Explore Now!</p>
                 </div>
                 <button className="menctgrs__btn">
@@ -52,7 +52,7 @@ const MenCategories = () => {
               <img src={menCategoriesImgThird} alt="error" />
               <div className="menctgrs__content">
                 <div className="menctgrs__title">
-                  <h2 className="menctgrs__title__header">Shirts</h2>
+                  <h2 className="menctgrs__title__header">Plain T-Shirts</h2>
                   <p className="menctgrs__title__descr">Explore Now!</p>
                 </div>
                 <button className="menctgrs__btn">
@@ -67,7 +67,7 @@ const MenCategories = () => {
               <img src={menCategoriesImgFourth} alt="error" />
               <div className="menctgrs__content">
                 <div className="menctgrs__title">
-                  <h2 className="menctgrs__title__header">Shirts</h2>
+                  <h2 className="menctgrs__title__header">Polo T-Shirts</h2>
                   <p className="menctgrs__title__descr">Explore Now!</p>
                 </div>
                 <button className="menctgrs__btn">
@@ -82,7 +82,9 @@ const MenCategories = () => {
               <img src={menCategoriesImgFifth} alt="error" />
               <div className="menctgrs__content">
                 <div className="menctgrs__title">
-                  <h2 className="menctgrs__title__header">Shirts</h2>
+                  <h2 className="menctgrs__title__header">
+                    Hoodies & Sweetshirts
+                  </h2>
                   <p className="menctgrs__title__descr">Explore Now!</p>
                 </div>
                 <button className="menctgrs__btn">
@@ -97,7 +99,7 @@ const MenCategories = () => {
               <img src={menCategoriesImgSixth} alt="error" />
               <div className="menctgrs__content">
                 <div className="menctgrs__title">
-                  <h2 className="menctgrs__title__header">Shirts</h2>
+                  <h2 className="menctgrs__title__header">Jeans</h2>
                   <p className="menctgrs__title__descr">Explore Now!</p>
                 </div>
                 <button className="menctgrs__btn">
@@ -112,7 +114,7 @@ const MenCategories = () => {
               <img src={menCategoriesImgSeventh} alt="error" />
               <div className="menctgrs__content">
                 <div className="menctgrs__title">
-                  <h2 className="menctgrs__title__header">Shirts</h2>
+                  <h2 className="menctgrs__title__header">Activewear</h2>
                   <p className="menctgrs__title__descr">Explore Now!</p>
                 </div>
                 <button className="menctgrs__btn">
@@ -127,7 +129,7 @@ const MenCategories = () => {
               <img src={menCategoriesImgEighth} alt="error" />
               <div className="menctgrs__content">
                 <div className="menctgrs__title">
-                  <h2 className="menctgrs__title__header">Shirts</h2>
+                  <h2 className="menctgrs__title__header">Boxers</h2>
                   <p className="menctgrs__title__descr">Explore Now!</p>
                 </div>
                 <button className="menctgrs__btn">
