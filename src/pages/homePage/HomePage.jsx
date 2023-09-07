@@ -3,6 +3,7 @@ import "./HomePage.css";
 import Carousel from "../../components/home/carousel/Carousel";
 import AdvertisingBlock from "../../components/home/advertisingBlock/AdvertisingBlock";
 import BannerBlock from "../../components/home/bannerBlock/BannerBlock";
+import MenCategories from "../../components/home/MenCategories/MenCategories";
 
 const HomePage = () => {
   return (
@@ -41,6 +42,7 @@ const HomePage = () => {
 
       <AdvertisingBlock />
       <BannerBlock />
+      <MenCategories />
     </>
   );
 };
