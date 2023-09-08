@@ -1,6 +1,6 @@
 import React from "react";
 import "./BannerBlock.css";
-import bannerBlockImgSecond from "../../../images/banner-block-img2.svg";
+import bannerBlockImgSecond from "../../../images/banner-block-img2.png";
 
 const BannerBlock = () => {
   return (

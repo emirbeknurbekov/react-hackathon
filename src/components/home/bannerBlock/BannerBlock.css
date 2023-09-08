@@ -7,7 +7,7 @@
 }
 .banner__block__item_first {
   border-radius: 8px 0 0 8px;
-  background: url("../../../images/banner-block-img1.svg") no-repeat;
+  background: url("../../../images/banners-block-img-leaves.png") no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

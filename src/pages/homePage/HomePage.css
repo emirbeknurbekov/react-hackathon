@@ -8,7 +8,7 @@
   align-items: center;
 }
 .home-pages__banners__block_first {
-  background: url("../../images/banner-img1.png") no-repeat;
+  background: url("../../images/banner-img-orange.png") no-repeat;
   width: 45%;
   display: flex;
   flex-direction: column;
@@ -47,7 +47,7 @@
   text-decoration-line: underline;
 }
 .home-pages__banners__block_second {
-  background: url("../../images/banners-img2.svg") no-repeat;
+  background: url("../../images/banners-img2.png") no-repeat;
   width: 45%;
 
   display: flex;

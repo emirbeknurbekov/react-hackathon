@@ -27,7 +27,7 @@
 }
 .home-pages__advertising__block_first__item {
   border-radius: 12px;
-  background: url("../../../images/advertising-img1.svg") no-repeat;
+  background: url("../../../images/banner-block-img1.png") no-repeat;
   background-size: cover;
   background-position: center;
   width: 400px;
@@ -86,7 +86,7 @@
 }
 
 .home-pages__advertising__block_first__item_second {
-  background: url("../../../images/advertising-img2.svg") no-repeat;
+  background: url("../../../images/advertising-img2.png") no-repeat;
   border-radius: 12px;
   background-size: cover;
   background-position: center;
@@ -166,7 +166,7 @@
 }
 
 .home-pages__advertising__block_first__item_third {
-  background: url("../../../images/advertising-img3.svg") no-repeat;
+  background: url("../../../images/advertising-img3.png") no-repeat;
   border-radius: 12px;
   background-size: cover;
   background-position: center;
@@ -224,7 +224,7 @@
   margin-top: 2%;
 }
 .homepages__advertising__block_second__item {
-  background: url("../../../images/advertising-img4.svg") no-repeat;
+  background: url("../../../images/advertising-img4.png") no-repeat;
   width: 600px;
   height: 380px;
   border-radius: 12px;
@@ -279,7 +279,7 @@
 }
 
 .homepages__advertising__block_second__item__second {
-  background: url("../../../images/advertising-img5.svg") no-repeat;
+  background: url("../../../images/advertising-img5.png") no-repeat;
   width: 600px;
   height: 380px;
   border-radius: 12px;

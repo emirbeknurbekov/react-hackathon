@@ -2,11 +2,11 @@ import React from "react";
 
 import "./Brands.css";
 
-import NikeImg from "../../../images/brands-nike-img1.svg";
-import HmImg from "../../../images/brands-hm-img2.svg";
-import LevisImg from "../../../images/brands-levis-img3.svg";
-import PoloImg from "../../../images/brands-polo-img.svg";
-import PumaImg from "../../../images/brands-puma-img.svg";
+import NikeImg from "../../../images/brands-nike-img.png";
+import HmImg from "../../../images/brands-hm-img.png";
+import LevisImg from "../../../images/brands-levis-img.png";
+import PoloImg from "../../../images/brands-polo-img.png";
+import PumaImg from "../../../images/brands-puma-img.png";
 
 const Brands = () => {
   return (

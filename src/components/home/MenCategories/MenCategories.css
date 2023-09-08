@@ -29,6 +29,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-right: 3%;
 }
 .menctgrs__title {
   padding-top: 2%;
@@ -51,4 +52,10 @@
 .menctgrs__btn {
   background: none;
   border: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+}
+.menctgrs__btn:hover {
+  color: black;
 }

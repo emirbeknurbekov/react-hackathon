@@ -2,14 +2,14 @@ import React from "react";
 import "./MenCategories.css";
 
 import categoriesArrowIcon from "../../../icons/menctgrs-arrow-icon.svg";
-import menCategoriesImgFirst from "../../../images/menctgrs_img1.svg";
-import menCategoriesImgSecond from "../../../images/menctgrs-img2.svg";
-import menCategoriesImgThird from "../../../images/menctgrs-img3.svg";
-import menCategoriesImgFourth from "../../../images/menctgrs-img4.svg";
-import menCategoriesImgFifth from "../../../images/menctgrs-img5.svg";
-import menCategoriesImgSixth from "../../../images/menctgrs-img6.svg";
-import menCategoriesImgSeventh from "../../../images/menctgrs-im7.svg";
-import menCategoriesImgEighth from "../../../images/menctgrs-img8.svg";
+import menCategoriesImgFirst from "../../../images/menctgrs_img1.png";
+import menCategoriesImgSecond from "../../../images/menctgrs-img2.png";
+import menCategoriesImgThird from "../../../images/menctgrs-img3.png";
+import menCategoriesImgFourth from "../../../images/menctgrs-img4.png";
+import menCategoriesImgFifth from "../../../images/menctgrs-img5.png";
+import menCategoriesImgSixth from "../../../images/menctgrs-img6.png";
+import menCategoriesImgSeventh from "../../../images/menctgrs-im7.png";
+import menCategoriesImgEighth from "../../../images/menctgrs-img8.png";
 
 const MenCategories = () => {
   return (

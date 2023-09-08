@@ -1,10 +1,10 @@
 import React from "react";
 import "./WomenCategories.css";
 
-import WomenCategoriesImgFirst from "../../../images/womenctgrs-img1.svg";
-import WomenCategoriesImgSecond from "../../../images/womenctgrs-img2.svg";
-import WomenCategoriesImgThird from "../../../images/womenctgrs-img3.svg";
-import WomenCategoriesImgFourth from "../../../images/womenctgrs-img4.svg";
+import WomenCategoriesImgFirst from "../../../images/womenctgrs-img1.png";
+import WomenCategoriesImgSecond from "../../../images/womenctgrs-img2.png";
+import WomenCategoriesImgThird from "../../../images/womenctgrs-img3.png";
+import WomenCategoriesImgFourth from "../../../images/womenctgrs-img4.png";
 import categoriesArrowIcon from "../../../icons/menctgrs-arrow-icon.svg";
 
 const WomenCategories = () => {

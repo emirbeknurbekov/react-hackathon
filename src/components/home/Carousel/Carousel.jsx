@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import carouselImageFirst from "../../../images/carousel-image1.svg";
+import carouselImageFirst from "../../../images/carousel-image1.png";
 import carouselImageSecond from "../../../images/carousel-image-second.jpg";
 
 import { useNavigate } from "react-router-dom";
