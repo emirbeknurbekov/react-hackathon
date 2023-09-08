@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 
 import Register from "../components/account/SignUp";
 import HomePage from "../pages/homePage/HomePage";
@@ -7,6 +7,11 @@ import Login from "../components/account/SignIn";
 import ResetPassword from "../components/account/ResetPassword";
 
 const MainRoutes = () => {
+  const location = useLocation();
+
+  const ShowNavbarAndFooter = () =>
+    !["/login", "register", "/reset-password"].includes(location.pathname);
+
   const ROUTES = [
     {
       id: 1,
@@ -24,17 +29,22 @@ const MainRoutes = () => {
       element: <Register />,
     },
     {
-      id:4,
-      path:"/reset-password",
-      element:<ResetPassword/>
-    }
+      id: 4,
+      path: "/reset-password",
+      element: <ResetPassword />,
+    },
   ];
+
   return (
-    <Routes>
-      {ROUTES.map((route) => (
-        <Route key={route.id} path={route.path} element={route.element} />
-      ))}
-    </Routes>
+    <>
+      {/* {ShowNavbarAndFooter && <Navbar />} */}
+      <Routes>
+        {ROUTES.map((route) => (
+          <Route key={route.id} path={route.path} element={route.element} />
+        ))}
+      </Routes>
+      {/* {ShowNavbarAndFooter && <Footer />} */}
+    </>
   );
 };
 
