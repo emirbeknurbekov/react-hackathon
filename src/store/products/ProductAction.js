@@ -1,12 +1,31 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
-import { PRODUCTS_API } from "../../helpers/consts";
+import { LIMIT, PRODUCTS_API } from "../../helpers/consts";
 import axios from "axios";
+import { setPageTotalCount } from "./ProductSlice";
 
 export const getProducts = createAsyncThunk(
   "getProducts",
-  async (_, { rejectWithValue }) => {
+  async (_, { rejectWithValue, dispatch }) => {
     try {
-      const { data } = await axios.get(PRODUCTS_API);
+      const { data, headers } = await axios.get(
+        `${PRODUCTS_API}${window.location.search}`
+      );
+      const total = Math.ceil(headers["x-total-count"] / LIMIT);
+
+      dispatch(setPageTotalCount(total));
+
+      return data;
+    } catch (e) {
+      return rejectWithValue(e);
+    }
+  }
+);
+
+export const getOneProduct = createAsyncThunk(
+  "getOneProduct",
+  async (id, { rejectWithValue }) => {
+    try {
+      const { data } = await axios.get(`${PRODUCTS_API}/${id}`);
       return data;
     } catch (e) {
       return rejectWithValue(e);
@@ -15,7 +34,7 @@ export const getProducts = createAsyncThunk(
 );
 
 export const createProduct = createAsyncThunk(
-  "getProducts",
+  "createProducts",
   async (product, { rejectWithValue, dispatch }) => {
     try {
       await axios.post(PRODUCTS_API, product);
@@ -27,7 +46,7 @@ export const createProduct = createAsyncThunk(
 );
 
 export const deleteProduct = createAsyncThunk(
-  "getProducts",
+  "deleteProducts",
   async (id, { rejectWithValue, dispatch }) => {
     try {
       await axios.delete(`${PRODUCTS_API}/${id}`);
@@ -39,7 +58,7 @@ export const deleteProduct = createAsyncThunk(
 );
 
 export const editProduct = createAsyncThunk(
-  "getProducts",
+  "editProducts",
   async (editedProduct, { rejectWithValue, dispatch }) => {
     try {
       await axios.patch(`${PRODUCTS_API}/${editedProduct.id}`, editedProduct);

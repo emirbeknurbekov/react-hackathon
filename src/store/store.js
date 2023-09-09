@@ -9,6 +9,6 @@ export default configureStore({
     }),
   reducer: {
     user: userSlice,
-    product: productReducer,
+    products: productReducer,
   },
 });

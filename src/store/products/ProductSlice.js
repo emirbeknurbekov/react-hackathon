@@ -1,6 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { getProducts } from "./ProductAction";
+import { getOneProduct, getProducts } from "./ProductAction";
 
+const searchParams = new URLSearchParams(window.location.search);
 const productsSlice = createSlice({
   name: "products",
   initialState: {
@@ -8,10 +9,18 @@ const productsSlice = createSlice({
     loading: false,
     oneProduct: null,
     error: null,
+    page: +searchParams.get("_page") || 1,
+    pageTotalCount: 1,
   },
   reducers: {
     clearOneProductState: (state) => {
       state.oneProduct = null;
+    },
+    setPage: (state, action) => {
+      state.page = action.payload;
+    },
+    setPageTotalCount: (state, action) => {
+      state.pageTotalCount = action.payload;
     },
   },
   extraReducers: (builder) => {
@@ -26,7 +35,11 @@ const productsSlice = createSlice({
       state.loading = false;
       state.error = action.payload;
     });
+    builder.addCase(getOneProduct.fulfilled, (state, action) => {
+      state.oneProduct = action.payload;
+    });
   },
 });
-export const { clearOneProductState } = productsSlice.actions;
+export const { clearOneProductState, setPage, setPageTotalCount } =
+  productsSlice.actions;
 export default productsSlice.reducer;

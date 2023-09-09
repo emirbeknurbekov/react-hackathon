@@ -71,6 +71,24 @@
       "gender": "men",
       "category": "boxers",
       "id": 8
+    },
+    {
+      "title": "sadfas",
+      "picture": "https://i.pinimg.com/564x/dc/55/d6/dc55d69bab8b077cdbc12951c61e367f.jpg",
+      "description": "ffffff",
+      "price": 24231419,
+      "gender": "men",
+      "category": "boxers",
+      "id": 9
+    },
+    {
+      "title": "sadfas",
+      "picture": "https://i.pinimg.com/564x/dc/55/d6/dc55d69bab8b077cdbc12951c61e367f.jpg",
+      "description": "ffffff",
+      "price": 24231419,
+      "gender": "men",
+      "category": "boxers",
+      "id": 10
     }
   ]
 }
