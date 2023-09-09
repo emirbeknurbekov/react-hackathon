@@ -4,8 +4,8 @@ import { getProducts } from "./ProductAction";
 const productsSlice = createSlice({
   name: "products",
   initialState: {
-    loading: false,
     products: [],
+    loading: false,
     oneProduct: null,
     error: null,
   },

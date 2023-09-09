@@ -60,7 +60,9 @@ const Navbar = () => {
         <img onClick={() => navigate("/")} src={logo} alt="" />
       </div>
       <ul className="navbar-items">
-        <li className="navbar-item ">Shop</li>
+        <li onClick={() => navigate("/products")} className="navbar-item ">
+          Shop
+        </li>
         <li className="navbar-item">Men</li>
         <li className="navbar-item">Women</li>
         <li className="navbar-item">Combos</li>

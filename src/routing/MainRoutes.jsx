@@ -7,6 +7,7 @@ import Login from "../components/account/SignIn";
 import ResetPassword from "../components/account/ResetPassword";
 import MainLayout from "../layout/MainLayout";
 import AddProductPage from "../pages/addProductPage/AddProductPage";
+import ProductListPage from "../pages/productListPage/ProductListPage";
 
 const MainRoutes = () => {
   return (
@@ -14,6 +15,7 @@ const MainRoutes = () => {
       <Route element={<MainLayout />}>
         <Route path="/" element={<HomePage />} />
         <Route path="/add" element={<AddProductPage />} />
+        <Route path="/products" element={<ProductListPage />} />
       </Route>
 
       <Route path="/login" element={<Login />} />

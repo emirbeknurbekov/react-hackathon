@@ -1,6 +1,5 @@
 *,
-ol,
-ul {
+li {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,7 +16,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   max-width: 90%;
-  max-height: 16vh;
+  max-height: 14vh;
   background: #fff;
 }
 .navbar-logo {
@@ -31,6 +30,8 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
   gap: 16%;
   color: #807d7e;
 }

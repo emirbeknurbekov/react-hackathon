@@ -53,6 +53,24 @@
       "gender": "women",
       "category": "shirts",
       "id": 6
+    },
+    {
+      "title": "asdf",
+      "picture": "214fds",
+      "description": "1fdsaf",
+      "price": 1324234,
+      "gender": "men",
+      "category": "boxers",
+      "id": 7
+    },
+    {
+      "title": "sadfas",
+      "picture": "ffffffff",
+      "description": "ffffff",
+      "price": 24231419,
+      "gender": "men",
+      "category": "boxers",
+      "id": 8
     }
   ]
 }
