@@ -2,35 +2,35 @@
   "clothes": [
     {
       "id": 1,
-      "title": "Black Sweatshirt with",
-      "picture": "https://www.google.com/search?q=Black+Sweatshirt+with&client=firefox-b-d&sca_esv=562751389&sxsrf=AB5stBhe7O_04Z96KAkqxluQCjEQcJHQUw%3A1693925609864&ei=6UD3ZLWoNJXVwPAP4NS4qAw&ved=0ahUKEwj1wIHS3JOBAxWVKhAIHWAqDsUQ4dUDCA8&uact=5&oq=Black+Sweatshirt+with&gs_lp=Egxnd3Mtd2l6LXNlcnAiFUJsYWNrIFN3ZWF0c2hpcnQgd2l0aDIEECMYJzIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABEjnDVDLAljsC3ABeAGQAQCYAdoBoAGlB6oBBTAuNC4xuAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICBhAAGBYYHuIDBBgAIEGIBgGQBgg&sclient=gws-wiz-serp&bshm=rime/1#vhid=4klmArvX9OLKfM&vssid=l",
-      "description": "",
+      "title": "Shirt",
+      "picture": "https://i.pinimg.com/564x/39/06/cf/3906cf6fe8fc597e2836d7fc8e4d9520.jpg",
+      "description": "skfjgslja;lsdjfl",
       "price": 5200,
       "gender": "women",
       "category": "shirts"
     },
     {
       "id": 2,
-      "title": "Black Sweatshirt with",
-      "picture": "https://www.google.com/search?q=Black+Sweatshirt+with&client=firefox-b-d&sca_esv=562751389&sxsrf=AB5stBhe7O_04Z96KAkqxluQCjEQcJHQUw%3A1693925609864&ei=6UD3ZLWoNJXVwPAP4NS4qAw&ved=0ahUKEwj1wIHS3JOBAxWVKhAIHWAqDsUQ4dUDCA8&uact=5&oq=Black+Sweatshirt+with&gs_lp=Egxnd3Mtd2l6LXNlcnAiFUJsYWNrIFN3ZWF0c2hpcnQgd2l0aDIEECMYJzIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABEjnDVDLAljsC3ABeAGQAQCYAdoBoAGlB6oBBTAuNC4xuAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICBhAAGBYYHuIDBBgAIEGIBgGQBgg&sclient=gws-wiz-serp&bshm=rime/1#vhid=4klmArvX9OLKfM&vssid=l",
-      "description": "",
+      "title": "Shirt",
+      "picture": "https://i.pinimg.com/564x/a3/4c/2c/a34c2caa2ad3822bc03b4b5077f02431.jpg",
+      "description": "skfjgslja;lsdjfl",
       "price": 5200,
       "gender": "women",
       "category": "shirts"
     },
     {
       "id": 3,
-      "title": "Black Sweatshirt with",
-      "picture": "https://www.google.com/search?q=Black+Sweatshirt+with&client=firefox-b-d&sca_esv=562751389&sxsrf=AB5stBhe7O_04Z96KAkqxluQCjEQcJHQUw%3A1693925609864&ei=6UD3ZLWoNJXVwPAP4NS4qAw&ved=0ahUKEwj1wIHS3JOBAxWVKhAIHWAqDsUQ4dUDCA8&uact=5&oq=Black+Sweatshirt+with&gs_lp=Egxnd3Mtd2l6LXNlcnAiFUJsYWNrIFN3ZWF0c2hpcnQgd2l0aDIEECMYJzIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABEjnDVDLAljsC3ABeAGQAQCYAdoBoAGlB6oBBTAuNC4xuAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICBhAAGBYYHuIDBBgAIEGIBgGQBgg&sclient=gws-wiz-serp&bshm=rime/1#vhid=4klmArvX9OLKfM&vssid=l",
-      "description": "",
+      "title": "Shirt",
+      "picture": "https://i.pinimg.com/564x/66/ad/2f/66ad2fc74a4dfc69040a1036363c2680.jpg",
+      "description": "skfjgslja;lsdjfl",
       "price": 5200,
       "gender": "women",
       "category": "shirts"
     },
     {
       "id": 4,
-      "title": "Black Sweatshirt with",
-      "picture": "https://www.google.com/search?q=Black+Sweatshirt+with&client=firefox-b-d&sca_esv=562751389&sxsrf=AB5stBhe7O_04Z96KAkqxluQCjEQcJHQUw%3A1693925609864&ei=6UD3ZLWoNJXVwPAP4NS4qAw&ved=0ahUKEwj1wIHS3JOBAxWVKhAIHWAqDsUQ4dUDCA8&uact=5&oq=Black+Sweatshirt+with&gs_lp=Egxnd3Mtd2l6LXNlcnAiFUJsYWNrIFN3ZWF0c2hpcnQgd2l0aDIEECMYJzIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABDIHEAAYExiABEjnDVDLAljsC3ABeAGQAQCYAdoBoAGlB6oBBTAuNC4xuAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICBhAAGBYYHuIDBBgAIEGIBgGQBgg&sclient=gws-wiz-serp&bshm=rime/1#vhid=4klmArvX9OLKfM&vssid=l",
+      "title": "Shirt",
+      "picture": "https://i.pinimg.com/564x/b1/2c/3e/b12c3ed7ab0e513716c44fefce3350a6.jpg",
       "description": "",
       "price": 5200,
       "gender": "women",
@@ -38,7 +38,7 @@
     },
     {
       "title": "ghkml",
-      "picture": "xdgchbkml",
+      "picture": "https://i.pinimg.com/564x/21/08/a4/2108a4f3383ed850d41d623535d1a2a7.jpg",
       "description": "drghl;",
       "price": 4567,
       "gender": "women",
@@ -47,7 +47,7 @@
     },
     {
       "title": "qwertyu",
-      "picture": "qwertyi",
+      "picture": "https://i.pinimg.com/564x/1f/5a/d4/1f5ad45e2dca29ed943dfebd00a729e6.jpg",
       "description": "qwertyiop",
       "price": 123456,
       "gender": "women",
@@ -56,7 +56,7 @@
     },
     {
       "title": "asdf",
-      "picture": "214fds",
+      "picture": "https://i.pinimg.com/564x/74/7a/7f/747a7fb535d348acbad54a9982ca4aa8.jpg",
       "description": "1fdsaf",
       "price": 1324234,
       "gender": "men",
@@ -65,7 +65,7 @@
     },
     {
       "title": "sadfas",
-      "picture": "ffffffff",
+      "picture": "https://i.pinimg.com/564x/dc/55/d6/dc55d69bab8b077cdbc12951c61e367f.jpg",
       "description": "ffffff",
       "price": 24231419,
       "gender": "men",

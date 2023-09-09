@@ -16,11 +16,44 @@ const ProductList = () => {
       {loading ? (
         <h3>Loading...</h3>
       ) : (
-        <div className="card-list">
-          {products.map((product) => (
-            <ProductItem key={product.id} product={product} />
-          ))}
-        </div>
+        <>
+          <h2
+            className="shop-header"
+            style={{
+              maxWidth: "80%",
+              margin: "0 auto",
+              borderLeft: "10px solid #8a33fd",
+              paddingLeft: "2%",
+              marginTop: "2%",
+              marginBottom: "2%",
+              color: "#3c4242",
+              fontSize: " 2.1rem",
+              fontWeight: "500",
+              lineHeight: "33.5px",
+              letterSpacing: "0.68px",
+            }}
+          >
+            {" "}
+            Shop
+          </h2>
+          <div
+            style={{
+              maxWidth: "90%",
+              margin: "0 auto",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              gap: "1%",
+              flexWrap: "wrap",
+              marginTop: "2%",
+            }}
+            className="Shop-list"
+          >
+            {products.map((product) => (
+              <ProductItem key={product.id} product={product} />
+            ))}
+          </div>
+        </>
       )}
     </div>
   );
