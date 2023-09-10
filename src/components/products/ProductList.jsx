@@ -24,7 +24,7 @@ const ProductList = () => {
   );
   const dispatch = useDispatch();
 
-  console.log(products, "data");
+  // console.log(products);
   useEffect(() => {
     dispatch(getProducts());
   }, [searchParams]);
@@ -76,14 +76,20 @@ const ProductList = () => {
         <h3>Loading...</h3>
       ) : (
         <>
-          <div className="container" style={{ display: "flex" }}>
+          <div
+            className="container"
+            style={{
+              display: "flex",
+              marginTop: "2 %",
+            }}
+          >
             <h2
               className="shop-header"
               style={{
                 maxWidth: "80%",
                 borderLeft: "10px solid #8a33fd",
                 paddingLeft: "2%",
-                marginTop: "2%",
+                marginTop: "4%",
                 marginBottom: "2%",
                 color: "#3c4242",
                 fontSize: " 2.1rem",
@@ -95,40 +101,58 @@ const ProductList = () => {
               {" "}
               Shop
             </h2>
-            <div style={{ maxWidth: "100px", width: "100%" }}>
-              <FormControl fullWidth>
-                <InputLabel id="demo-simple-select-label">Gender</InputLabel>
-                <Select
-                  labelId="demo-simple-select-label"
-                  id="demo-simple-select"
-                  value={gender}
-                  label="Gender"
-                  onChange={(e) => setGender(e.target.value)}
-                >
-                  <MenuItem value={"all"}>All</MenuItem>
-                  <MenuItem value={"men"}>Men</MenuItem>
-                  <MenuItem value={"women"}>Women</MenuItem>
-                </Select>
-              </FormControl>
-            </div>
-            <div style={{ maxWidth: "100px", width: "100%" }}>
-              <FormControl fullWidth>
-                <InputLabel id="demo-simple-select-label">Category</InputLabel>
-                <Select
-                  labelId="demo-simple-select-label"
-                  id="demo-simple-select"
-                  value={category}
-                  label="Category"
-                  onChange={(e) => setCategory(e.target.value)}
-                >
-                  <MenuItem value={"all"}>All</MenuItem>
-                  <MenuItem value={"shirts"}>Shirts</MenuItem>
-                  <MenuItem value={"hoodies"}>Hoodies</MenuItem>
-                  <MenuItem value={"jeans"}>Jeans</MenuItem>
-                  <MenuItem value={"activewear"}>Activewear</MenuItem>
-                  <MenuItem value={"boxers"}>Boxers</MenuItem>
-                </Select>
-              </FormControl>
+            <div
+              className="category__container"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "15%",
+                paddingRight: "20%",
+                paddingTop: "2%",
+              }}
+            >
+              <div
+                style={{ maxWidth: "100px", width: "100%", marginTop: "3%" }}
+              >
+                <FormControl fullWidth>
+                  <InputLabel id="demo-simple-select-label">Gender</InputLabel>
+                  <Select
+                    labelId="demo-simple-select-label"
+                    id="demo-simple-select"
+                    value={gender}
+                    label="Gender"
+                    onChange={(e) => setGender(e.target.value)}
+                  >
+                    <MenuItem value={"all"}>All</MenuItem>
+                    <MenuItem value={"men"}>Men</MenuItem>
+                    <MenuItem value={"women"}>Women</MenuItem>
+                  </Select>
+                </FormControl>
+              </div>
+              <div
+                style={{ maxWidth: "100px", width: "100%", marginTop: "3%" }}
+              >
+                <FormControl fullWidth>
+                  <InputLabel id="demo-simple-select-label">
+                    Category
+                  </InputLabel>
+                  <Select
+                    labelId="demo-simple-select-label"
+                    id="demo-simple-select"
+                    value={category}
+                    label="Category"
+                    onChange={(e) => setCategory(e.target.value)}
+                  >
+                    <MenuItem value={"all"}>All</MenuItem>
+                    <MenuItem value={"shirts"}>Shirts</MenuItem>
+                    <MenuItem value={"hoodies"}>Hoodies</MenuItem>
+                    <MenuItem value={"jeans"}>Jeans</MenuItem>
+                    <MenuItem value={"activewear"}>Activewear</MenuItem>
+                    <MenuItem value={"boxers"}>Boxers</MenuItem>
+                  </Select>
+                </FormControl>
+              </div>
             </div>
           </div>
           <div
@@ -136,7 +160,7 @@ const ProductList = () => {
               maxWidth: "90%",
               margin: "0 auto",
               display: "flex",
-              justifyContent: "center",
+              justifyContent: "flex-start",
               alignItems: "center",
               gap: "1%",
               flexWrap: "wrap",

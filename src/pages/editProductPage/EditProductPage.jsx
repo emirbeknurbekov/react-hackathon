@@ -26,7 +26,7 @@ export default function EditProductPage() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const { id } = useParams();
-
+  // console.log(oneProduct);
   const [formValue, setFormValue] = React.useState({
     title: "",
     picture: "",

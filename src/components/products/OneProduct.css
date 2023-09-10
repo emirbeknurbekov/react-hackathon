@@ -1,0 +1,102 @@
+.one-product__container {
+  margin: 0 auto;
+  max-width: 80%;
+  padding-top: 4%;
+  padding-bottom: 5%;
+}
+.one-product__items {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 5%;
+}
+
+.one-product__item_first__img__block img {
+  width: 500px;
+  border-radius: 12px;
+  padding: 1%;
+}
+.one-product__item_first__img__block img:hover {
+  border: 2px solid #0000;
+  box-shadow: 0 0 20px rgb(250, 246, 244);
+  transition: 0.3 ease;
+}
+.one-product__item_second {
+  padding: 2% 7%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+.one-product__header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #3c4242;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0.68px;
+}
+.one-product__item__descr {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #807d7e;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 33.5px;
+  letter-spacing: 0.56px;
+}
+.one-product__item_second__price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4%;
+  color: #3c4242;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 2px solid #3c4242;
+  cursor: default;
+}
+
+.one-product__item_second__icons__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+}
+.one-product__item_second__cart__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  border-radius: 8px;
+  background: #8a33fd;
+  padding: 7% 3%;
+  width: 150px;
+  cursor: pointer;
+}
+.one-product__item_second__cart__block h3 {
+  color: #ffffff;
+  font-size: 0.8rem;
+  margin: 0;
+}
+.one-product__item_second__like__block {
+  padding: 4% 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.one-product__item_second__like__block img {
+  width: 25px;
+  cursor: pointer;
+}
+.one-product__item_second__like__block:hover {
+  background: red;
+}

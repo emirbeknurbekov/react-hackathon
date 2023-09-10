@@ -36,7 +36,15 @@ const productsSlice = createSlice({
       state.error = action.payload;
     });
     builder.addCase(getOneProduct.fulfilled, (state, action) => {
+      state.loading = false;
       state.oneProduct = action.payload;
+    });
+    builder.addCase(getOneProduct.pending, (state, action) => {
+      state.loading = true;
+    });
+    builder.addCase(getOneProduct.rejected, (state, action) => {
+      state.loading = true;
+      state.error = action.payload;
     });
   },
 });
