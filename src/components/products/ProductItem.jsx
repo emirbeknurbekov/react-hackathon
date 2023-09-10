@@ -11,6 +11,16 @@ import { useDispatch, useSelector } from "react-redux";
 import { IconButton } from "@mui/material";
 import { deleteProduct } from "../../store/products/ProductAction";
 import { useNavigate } from "react-router-dom";
+import {
+  addItemToCart,
+  isItemInCart,
+  removeItemFromCart,
+} from "../../store/cart/CartAction";
+import {
+  addItemToFavorites,
+  isItemInFavorites,
+  removeItemFromFavorites,
+} from "../../store/favorites/FavoriteAction";
 
 const ProductItem = ({ product }) => {
   const imageStyle = {
@@ -21,6 +31,8 @@ const ProductItem = ({ product }) => {
     height: "370px",
   };
   const { user } = useSelector((state) => state.user);
+  const { products } = useSelector((state) => state.cart.cart);
+  const { favorites } = useSelector((state) => state.favorites);
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
@@ -28,8 +40,38 @@ const ProductItem = ({ product }) => {
     <div className="products__container">
       <div className="products__item">
         <div style={imageStyle} className="products__img__block">
-          <img src={heartIcon} alt="" className="products__like-icon" />
-          <img src={cartIcon} alt="" className="products__cart__icon" />
+          {isItemInFavorites(product.id) ? (
+            <img
+              onClick={() => dispatch(removeItemFromFavorites(product.id))}
+              src={heartIcon}
+              alt=""
+              className="products__like-icon"
+            />
+          ) : (
+            <img
+              onClick={() => dispatch(addItemToFavorites(product))}
+              src={heartIcon}
+              alt=""
+              className="products__like-icon"
+            />
+          )}
+
+          {isItemInCart(product.id) ? (
+            <img
+              onClick={() => dispatch(removeItemFromCart(product.id))}
+              src={cartIcon}
+              alt=""
+              className="products__cart__icon"
+            />
+          ) : (
+            <img
+              onClick={() => dispatch(addItemToCart(product))}
+              src={cartIcon}
+              alt=""
+              className="products__cart__icon"
+            />
+          )}
+
           {ADMINS.includes(user) && (
             <div
               className="admin-icon_buttons"
@@ -67,7 +109,7 @@ const ProductItem = ({ product }) => {
         <div className="products__content">
           <div className="products__title">
             <h2
-              onClick={() => navigate(`products/${product.id}`)}
+              onClick={() => navigate(`/product/${product.id}`)}
               className="products__header"
             >
               {product.title}

@@ -10,6 +10,7 @@ import LoginPage from "../pages/LoginPage";
 import RegisterPage from "../pages/RegisterPage";
 import EditProductPage from "../pages/editProductPage/EditProductPage";
 import OneProductPage from "../pages/OneProductPage/OneProductPage";
+import CartPage from "../pages/CartPage/CartPage";
 
 const MainRoutes = () => {
   return (
@@ -19,7 +20,8 @@ const MainRoutes = () => {
         <Route path="/add" element={<AddProductPage />} />
         <Route path="/edit/:id" element={<EditProductPage />} />
         <Route path="/products" element={<ProductListPage />} />
-        <Route path="/products/products/:id" element={<OneProductPage />} />
+        <Route path="/product/:id" element={<OneProductPage />} />
+        <Route path="/cart" element={<CartPage />} />
       </Route>
 
       <Route path="/login" element={<LoginPage />} />

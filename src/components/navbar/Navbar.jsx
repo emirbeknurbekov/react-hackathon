@@ -82,7 +82,12 @@ const Navbar = () => {
         <li onClick={() => navigate("/products")} className="navbar-item ">
           Shop
         </li>
-        <li className="navbar-item">Men</li>
+        <li
+          onClick={() => navigate("/products?gender=men")}
+          className="navbar-item"
+        >
+          Men
+        </li>
         <li className="navbar-item">Women</li>
         <li className="navbar-item">Combos</li>
         <li className="navbar-item">Joggers</li>
@@ -105,7 +110,7 @@ const Navbar = () => {
           <img src={favouritesIcon} alt="" />
         </li>
 
-        <li className="navbar-account__item">
+        <li onClick={() => navigate("/cart")} className="navbar-account__item">
           <img src={cartIcon} alt="" />
         </li>
         {user ? (

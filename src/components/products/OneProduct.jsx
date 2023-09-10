@@ -7,10 +7,21 @@ import { clearOneProductState } from "../../store/products/ProductSlice";
 import heartIcon from "../../icons/product-heart-icon.svg";
 import CartIcon from "../../icons/cart-icon-light.svg";
 import "./OneProduct.css";
+import {
+  addItemToCart,
+  isItemInCart,
+  removeItemFromCart,
+} from "../../store/cart/CartAction";
+import {
+  addItemToFavorites,
+  isItemInFavorites,
+  removeItemFromFavorites,
+} from "../../store/favorites/FavoriteAction";
 
 const OneProduct = () => {
   const { oneProduct, loading } = useSelector((state) => state.products);
-  console.log(oneProduct);
+  const { products } = useSelector((state) => state.cart.cart);
+  const { favorites } = useSelector((state) => state.favorites);
   const dispatch = useDispatch();
   const { id } = useParams();
 
@@ -41,13 +52,41 @@ const OneProduct = () => {
               </div>
 
               <div className="one-product__item_second__icons__block">
-                <div className="one-product__item_second__cart__block">
-                  <img src={CartIcon} alt="" />
-                  <h3>Add to cart</h3>
-                </div>
-                <div className="one-product__item_second__like__block">
-                  <img src={heartIcon} alt="error" />
-                </div>
+                {isItemInCart(oneProduct.id) ? (
+                  <div
+                    onClick={() => dispatch(removeItemFromCart(oneProduct.id))}
+                    className="one-product__item_second__cart__block"
+                  >
+                    <img src={CartIcon} alt="" />
+                    <h3>Remove from cart</h3>
+                  </div>
+                ) : (
+                  <div
+                    onClick={() => dispatch(addItemToCart(oneProduct))}
+                    className="one-product__item_second__cart__block"
+                  >
+                    <img src={CartIcon} alt="" />
+                    <h3>Add to cart</h3>
+                  </div>
+                )}
+
+                {isItemInFavorites(oneProduct.id) ? (
+                  <div
+                    onClick={() =>
+                      dispatch(removeItemFromFavorites(oneProduct.id))
+                    }
+                    className="one-product__item_second__like__block"
+                  >
+                    <img src={heartIcon} alt="error" />
+                  </div>
+                ) : (
+                  <div
+                    onClick={() => dispatch(addItemToFavorites(oneProduct))}
+                    className="one-product__item_second__like__block"
+                  >
+                    <img src={heartIcon} alt="error" />
+                  </div>
+                )}
               </div>
             </div>
           </div>

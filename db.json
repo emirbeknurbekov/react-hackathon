@@ -71,6 +71,24 @@
       "gender": "men",
       "category": "boxers",
       "id": 10
+    },
+    {
+      "title": "weryj",
+      "picture": "sedfgj",
+      "description": "sdrghj",
+      "price": 3456,
+      "gender": "women",
+      "category": "shirts",
+      "id": 11
+    },
+    {
+      "title": "esdryguh",
+      "picture": "dfgjkl",
+      "description": "dfgjk",
+      "price": 4567,
+      "gender": "women",
+      "category": "shirts",
+      "id": 12
     }
   ]
 }

@@ -10,8 +10,10 @@ import menCategoriesImgFifth from "../../../images/menctgrs-img5.png";
 import menCategoriesImgSixth from "../../../images/menctgrs-img6.png";
 import menCategoriesImgSeventh from "../../../images/menctgrs-im7.png";
 import menCategoriesImgEighth from "../../../images/menctgrs-img8.png";
+import { useNavigate } from "react-router-dom";
 
 const MenCategories = () => {
+  const navigate = useNavigate();
   return (
     <>
       <div className="menctgrs__container">
@@ -132,7 +134,12 @@ const MenCategories = () => {
                   <h2 className="menctgrs__title__header">Boxers</h2>
                   <p className="menctgrs__title__descr">Explore Now!</p>
                 </div>
-                <button className="menctgrs__btn">
+                <button
+                  onClick={() =>
+                    navigate("/products?gender=men&category=boxers")
+                  }
+                  className="menctgrs__btn"
+                >
                   <img src={categoriesArrowIcon} alt="error" />
                 </button>
               </div>

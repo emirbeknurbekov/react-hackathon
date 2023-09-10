@@ -22,7 +22,7 @@
   transition: 0.3 ease;
 }
 .one-product__item_second {
-  padding: 2% 7%;
+  padding: 2% 7% 2% 2%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
 }

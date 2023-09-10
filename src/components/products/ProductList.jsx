@@ -27,6 +27,7 @@ const ProductList = () => {
   // console.log(products);
   useEffect(() => {
     dispatch(getProducts());
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }, [searchParams]);
   useEffect(() => {
     const currentParams = Object.fromEntries([...searchParams]);
