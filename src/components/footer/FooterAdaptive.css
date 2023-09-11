@@ -1,0 +1,35 @@
+@media all and (max-width: 890px) {
+  .footer__block_first {
+    flex-wrap: wrap;
+  }
+}
+@media all and (max-width: 670px) {
+  .footer__block_second {
+    flex-direction: column;
+  }
+}
+@media all and (max-width: 490px) {
+  .footer__block_second__download__header {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .footer__block_second__download__header {
+    margin: 0 auto;
+  }
+  .footer__block_second__download__btns img {
+    width: 150px;
+  }
+  .footer__block_second__download__btns {
+    flex-wrap: wrap;
+  }
+  .footer__block_second__download__btn {
+    margin-bottom: 5%;
+  }
+  .footer__block_fourth__title {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  #location {
+    display: none;
+  }
+}

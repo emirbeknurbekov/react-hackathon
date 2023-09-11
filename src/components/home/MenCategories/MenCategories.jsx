@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import "./MenCategories.css";
+import "./MenCategoriesAdaptive.css";
 
 import categoriesArrowIcon from "../../../icons/menctgrs-arrow-icon.svg";
 import menCategoriesImgFirst from "../../../images/menctgrs_img1.png";
@@ -14,10 +15,12 @@ import { useNavigate } from "react-router-dom";
 
 const MenCategories = () => {
   const navigate = useNavigate();
+
   return (
     <>
       <div className="menctgrs__container">
         <h2 className="menctgrs__header">Categories For Men</h2>
+
         <div className="menctgrs__block">
           <div className="menctgrs__item">
             <div className="menctgrs__img">

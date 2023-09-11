@@ -1,0 +1,5 @@
+@media all and (max-width: 1293px) {
+  .home-pages__banners__block {
+    display: none;
+  }
+}

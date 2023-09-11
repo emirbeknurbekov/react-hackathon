@@ -1,5 +1,6 @@
 import React from "react";
 import "./BannerBlock.css";
+import "./BannerBlockAdaptive.css";
 import bannerBlockImgSecond from "../../../images/banner-block-img2.png";
 
 const BannerBlock = () => {

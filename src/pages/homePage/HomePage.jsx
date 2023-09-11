@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomePage.css";
+import "./HomePageAdaptive.css";
 import Carousel from "../../components/home/carousel/Carousel";
 import AdvertisingBlock from "../../components/home/advertisingBlock/AdvertisingBlock";
 import BannerBlock from "../../components/home/bannerBlock/BannerBlock";

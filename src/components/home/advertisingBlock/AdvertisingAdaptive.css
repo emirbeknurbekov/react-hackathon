@@ -1,0 +1,20 @@
+@media all and (max-width: 889px) {
+  .home-pages__advertising__block_first {
+    flex-wrap: wrap;
+  }
+  .home-pages__advertising__block_first__item {
+    margin-bottom: 4%;
+  }
+  .home-pages__advertising__block_first__item_second {
+    margin-bottom: 4%;
+  }
+  .home-pages__advertising__block_first__item_third {
+    margin-bottom: 4%;
+  }
+  .homepages__advertising__block_second {
+    flex-wrap: wrap;
+  }
+  .homepages__advertising__block_second__item {
+    margin-bottom: 4%;
+  }
+}

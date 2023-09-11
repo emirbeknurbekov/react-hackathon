@@ -21,7 +21,6 @@
   gap: 4%;
 }
 .menctgrs__item {
-  width: 22%;
   display: flex;
   flex-wrap: wrap;
 }

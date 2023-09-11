@@ -1,0 +1,17 @@
+@media all and (max-width: 1169px) {
+  .brands__img-block img {
+    width: 130px;
+    margin-bottom: 4%;
+  }
+  .brands__img-block {
+    flex-wrap: wrap;
+  }
+}
+@media all and (max-width: 435px) {
+  .brands__header {
+    font-size: 1.6rem;
+  }
+  .brands__descr {
+    font-size: 0.9rem;
+  }
+}

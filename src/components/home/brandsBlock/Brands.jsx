@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./Brands.css";
+import "./BrandsAdaptive.css";
 
 import NikeImg from "../../../images/brands-nike-img.png";
 import HmImg from "../../../images/brands-hm-img.png";

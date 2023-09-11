@@ -1,0 +1,12 @@
+@media all and (max-width: 1191px) {
+  .menctgrs__block {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+@media all and (max-width: 390px) {
+  .menctgrs__header {
+    font-size: 1.4rem;
+  }
+}

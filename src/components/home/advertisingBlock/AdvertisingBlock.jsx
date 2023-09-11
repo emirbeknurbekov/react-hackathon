@@ -1,5 +1,6 @@
 import React from "react";
 import "./AdvertisingBlock.css";
+import "./AdvertisingAdaptive.css";
 
 import advertisingIcon from "../../../icons/advertising-block__icon.svg";
 import advertisingIconDark from "../../../icons/advertising-arrow-icon-dark.svg";
