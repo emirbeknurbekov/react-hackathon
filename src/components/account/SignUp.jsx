@@ -23,6 +23,7 @@ const Register = () => {
     }
 
     dispatch(register({ username, password }));
+    console.log();
   }
 
   if (user) {

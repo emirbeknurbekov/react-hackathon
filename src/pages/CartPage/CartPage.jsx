@@ -4,6 +4,7 @@ import { getCart } from "../../store/cart/CartAction";
 import CartItem from "../../components/CartItem";
 
 import "./CartPage.css";
+import "./CartPageAdaptive.css";
 
 const CartPage = () => {
   const { products } = useSelector((state) => state.cart.cart);
@@ -26,7 +27,9 @@ const CartPage = () => {
           <thead>
             <tr>
               <th style={{ padding: "30px" }}>Product Details</th>
-              <th style={{ padding: "30px" }}>Price</th>
+              <th className="cart-page__price" style={{ padding: "30px" }}>
+                Price
+              </th>
               <th style={{ padding: "30px" }}>Quantity</th>
               <th style={{ padding: "30px" }}>SubTotal</th>
               <th style={{ padding: "30px" }}>Action</th>

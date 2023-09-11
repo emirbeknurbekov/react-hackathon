@@ -54,29 +54,20 @@ const FavoritesItem = ({ favorite }) => {
       </td>
       <td style={{ padding: "20px", borderBottom: "1px solid #EDEEF2" }}>
         <button
+          className="cart__favorites-icon"
           style={{
             background: "#8A33FD",
             display: "flex",
             justufyContent: "center",
+            alignItems: "cente",
             cursor: "pointer",
-            padding: "6%",
+            padding: "18%",
             gap: "10px",
-            width: "150px",
             borderRadius: "8px",
             border: "none",
           }}
         >
-          <img style={{}} src={cartIcon} alt="error" />
-          <h2
-            style={{
-              fontSize: "1rem",
-              color: "#f6f6f6",
-              textAlign: "start",
-              margin: "0",
-            }}
-          >
-            Add to Cart
-          </h2>
+          <img style={{ width: "30px" }} src={cartIcon} alt="error" />
         </button>
       </td>
     </tr>

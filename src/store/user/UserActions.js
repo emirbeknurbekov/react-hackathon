@@ -22,7 +22,11 @@ export const register = createAsyncThunk(
   "register",
   async (credentials, { rejectWithValue }) => {
     try {
-      await axios.post(`${ACCOUNT_API}/register/`, credentials);
+      const formData = new FormData();
+      formData.append("username", credentials.username);
+      formData.append("password", credentials.password);
+      await axios.post(`${ACCOUNT_API}/register/`, formData);
+      return credentials.username;
     } catch (e) {
       return rejectWithValue(e);
     }
@@ -32,6 +36,7 @@ export const logout = createAsyncThunk("logout", async (_, { dispatch }) => {
   localStorage.removeItem("user");
   dispatch(setUser(null));
 });
+
 export const checkAuth = createAsyncThunk(
   "checkAuth",
   async (_, { dispatch }) => {

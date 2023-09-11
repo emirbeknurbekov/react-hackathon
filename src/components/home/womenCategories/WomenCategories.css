@@ -14,14 +14,15 @@
   letter-spacing: 0.68px;
 }
 .womenctgrs__block {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   gap: 4%;
 }
 
 .womenctgrs__item {
+  width: 22%;
   display: flex;
   flex-wrap: wrap;
 }

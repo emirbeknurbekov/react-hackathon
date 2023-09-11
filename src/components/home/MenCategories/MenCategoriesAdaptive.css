@@ -3,6 +3,9 @@
     flex-wrap: wrap;
     flex-direction: column;
   }
+  .menctgrs__item {
+    width: auto;
+  }
 }
 
 @media all and (max-width: 390px) {

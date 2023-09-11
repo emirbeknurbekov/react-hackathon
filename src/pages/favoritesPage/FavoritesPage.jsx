@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getFavorites } from "../../store/favorites/FavoriteAction";
 
 import "./FavoritesPage.css";
+import "./FavoritesPageAdaptive.css";
 import FavoritesItem from "../../components/FavoritesItem";
 
 const FavoritesPage = () => {
@@ -17,10 +18,18 @@ const FavoritesPage = () => {
       <table style={{ marginBottom: "10%" }}>
         <thead>
           <tr>
-            <th style={{ padding: "30px" }}>Actions</th>
-            <th style={{ padding: "30px" }}>Product Details</th>
-            <th style={{ padding: "30px" }}>Price</th>
-            <th style={{ padding: "30px" }}>Actions</th>
+            <th className="favorites__headers" style={{ padding: "30px" }}>
+              Actions
+            </th>
+            <th className="favorites__headers" style={{ padding: "30px" }}>
+              Product Details
+            </th>
+            <th className="favorites__headers" style={{ padding: "30px" }}>
+              Price
+            </th>
+            <th className="favorites__headers" style={{ padding: "30px" }}>
+              Actions
+            </th>
           </tr>
         </thead>
         <tbody>

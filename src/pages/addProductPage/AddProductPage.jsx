@@ -150,6 +150,7 @@ export default function AddProductPage() {
                 <MenuItem value={"jeans"}>Jeans</MenuItem>
                 <MenuItem value={"activewear"}>Activewear</MenuItem>
                 <MenuItem value={"boxers"}>Boxers</MenuItem>
+                <MenuItem value={"joggers"}>Joggers</MenuItem>
               </Select>
             </FormControl>
             <Button

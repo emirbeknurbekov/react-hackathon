@@ -37,15 +37,6 @@
       "category": "shirts"
     },
     {
-      "title": "ghkml",
-      "picture": "https://i.pinimg.com/564x/21/08/a4/2108a4f3383ed850d41d623535d1a2a7.jpg",
-      "description": "drghl;",
-      "price": 4567,
-      "gender": "women",
-      "category": "shirts",
-      "id": 5
-    },
-    {
       "title": "qwertyu",
       "picture": "https://i.pinimg.com/564x/1f/5a/d4/1f5ad45e2dca29ed943dfebd00a729e6.jpg",
       "description": "qwertyiop",
@@ -73,22 +64,13 @@
       "id": 10
     },
     {
-      "title": "weryj",
-      "picture": "sedfgj",
-      "description": "sdrghj",
-      "price": 3456,
-      "gender": "women",
-      "category": "shirts",
+      "title": "Drawstring Jogger Pants",
+      "picture": "https://i.pinimg.com/564x/92/85/3c/92853c3314558ead3a0e0815d8456050.jpg",
+      "description": "ksadffdaf",
+      "price": 200,
+      "gender": "men",
+      "category": "joggers",
       "id": 11
-    },
-    {
-      "title": "esdryguh",
-      "picture": "dfgjkl",
-      "description": "dfgjk",
-      "price": 4567,
-      "gender": "women",
-      "category": "shirts",
-      "id": 12
     }
   ]
 }

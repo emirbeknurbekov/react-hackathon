@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../../store/products/ProductAction";
 import ProductItem from "./ProductItem";
-import { useSearchParams } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import {
   FormControl,
   InputLabel,
@@ -12,8 +12,12 @@ import {
 } from "@mui/material";
 import { setPage } from "../../store/products/ProductSlice";
 import { LIMIT } from "../../helpers/consts";
+import { ADMINS } from "../../helpers/consts";
 
 const ProductList = () => {
+  const navigate = useNavigate();
+  const { user } = useSelector((state) => state.user);
+
   const [searchParams, setSearchParams] = useSearchParams();
   const { products, loading, page, pageTotalCount } = useSelector(
     (state) => state.products
@@ -151,6 +155,7 @@ const ProductList = () => {
                     <MenuItem value={"jeans"}>Jeans</MenuItem>
                     <MenuItem value={"activewear"}>Activewear</MenuItem>
                     <MenuItem value={"boxers"}>Boxers</MenuItem>
+                    <MenuItem value={"joggers"}>Joggers</MenuItem>
                   </Select>
                 </FormControl>
               </div>
@@ -175,10 +180,43 @@ const ProductList = () => {
           </div>
 
           <Pagination
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              marginBottom: "4%",
+              marginTop: "4%",
+            }}
             count={pageTotalCount}
             page={page}
             onChange={(_, value) => dispatch(setPage(value))}
           />
+          {ADMINS.includes(user) && (
+            <button
+              onMouseEnter={(e) => {
+                e.target.style.background = "#8A33FD";
+                e.target.style.color = "black";
+              }}
+              onMouseLeave={(e) => {
+                e.target.style.background = "grey"; // Возвращаем исходный фон при уходе курсора
+                e.target.style.color = "#ffffff"; // Возвращаем исходный цвет текста при уходе курсора
+              }}
+              onClick={() => navigate("/add")}
+              style={{
+                position: "fixed",
+                bottom: "20px",
+                right: "70px",
+                background: "grey",
+                borderRadius: "8px",
+                padding: "10px",
+                border: "1px solid grey",
+                color: "#ffffff",
+                boxShadow: " 0 0 20px rgba(0, 0, 0, 0.1)",
+              }}
+              className="add-icon_admin"
+            >
+              ADD
+            </button>
+          )}
         </>
       )}
     </div>

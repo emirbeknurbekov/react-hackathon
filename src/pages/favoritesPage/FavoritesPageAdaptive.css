@@ -1,0 +1,28 @@
+@media all and (max-width: 595px) {
+  table {
+    font-size: 14px !important;
+  }
+  .favorites__headers,
+  td {
+    padding: 10px;
+  }
+  tr {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+  }
+  .favorites-item__details img {
+    width: 80px;
+  }
+}
+@media all and (max-width: 450px) {
+  .cart__favorites-icon {
+    width: 40px;
+  }
+  .favorites-item__details img {
+    width: 50px !important;
+  }
+  th,
+  td {
+    padding: 10px !important;
+  }
+}

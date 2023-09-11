@@ -38,12 +38,13 @@ const CartItem = ({ product }) => {
           {product.title}
         </h2>
         <img
+          className="cart-item__picture"
           style={{ width: "80px", borderRadius: "8px" }}
           src={product.picture}
           alt="error"
         />
       </td>
-      <td style={{ padding: "20px" }}>
+      <td className="cart-item__price" style={{ padding: "20px" }}>
         <h2 style={{ fontSize: "1.2rem", color: "#3c4242", marginBottom: "0" }}>
           {product.price}$
         </h2>

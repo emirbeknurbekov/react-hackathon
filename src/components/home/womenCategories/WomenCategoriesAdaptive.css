@@ -1,0 +1,11 @@
+@media all and (max-width: 1278px) {
+  .womenctgrs__block {
+    flex-wrap: wrap;
+  }
+}
+
+@media all and (max-width: 1190px) {
+  .womenctgrs__item {
+    width: auto;
+  }
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import "./WomenCategories.css";
+import "./WomenCategoriesAdaptive.css";
 
 import WomenCategoriesImgFirst from "../../../images/womenctgrs-img1.png";
 import WomenCategoriesImgSecond from "../../../images/womenctgrs-img2.png";
