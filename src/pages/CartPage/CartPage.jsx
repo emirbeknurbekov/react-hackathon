@@ -9,7 +9,7 @@ const CartPage = () => {
   const { products } = useSelector((state) => state.cart.cart);
   const dispatch = useDispatch();
   const { cart } = useSelector((state) => state.cart);
-  console.log(products);
+  // console.log(products);
 
   useEffect(() => {
     dispatch(getCart());

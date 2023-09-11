@@ -3,17 +3,21 @@ import React, { useEffect, useState } from "react";
 import SearchIcon from "@mui/icons-material/Search";
 import { styled, alpha } from "@mui/material/styles";
 import InputBase from "@mui/material/InputBase";
+import BurgerMenu from "./burgerMenu/BurgerMenu";
 
 import "./Navbar.css";
+import "./NavbarAdaptive.css";
 import logo from "../../icons/Logo.svg";
 import favouritesIcon from "../../icons/favorites-icon.svg";
 import cartIcon from "../../icons/cart-icon.svg";
 import userIcon from "../../icons/user-icon.svg";
+import BurgerMenuIcon from "../../icons/menu-burger.svg";
 
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import LogoutTwoToneIcon from "@mui/icons-material/LogoutTwoTone";
 import { logout } from "../../store/user/UserActions";
+
 const SearchIconWrapper = styled("div")(({ theme }) => ({
   padding: theme.spacing(0, 2),
   height: "100%",
@@ -56,6 +60,12 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 }));
 
 const Navbar = () => {
+  const [isBurgerMenuOpen, setIsBurgerMenuOpen] = useState(false); // Состояние для бургер-меню
+
+  const toggleBurgerMenu = () => {
+    setIsBurgerMenuOpen(!isBurgerMenuOpen);
+  };
+
   const navigate = useNavigate();
   const { user } = useSelector((state) => state.user);
   const dispatch = useDispatch();
@@ -107,7 +117,11 @@ const Navbar = () => {
       </div>
       <ul className="navbar-account__block">
         <li className="navbar-account__item">
-          <img src={favouritesIcon} alt="" />
+          <img
+            onClick={() => navigate("favorites")}
+            src={favouritesIcon}
+            alt=""
+          />
         </li>
 
         <li onClick={() => navigate("/cart")} className="navbar-account__item">
@@ -129,6 +143,14 @@ const Navbar = () => {
           </li>
         )}
       </ul>
+
+      <div className="burger-menu-button" onClick={toggleBurgerMenu}>
+        <img style={{ width: "25px" }} src={BurgerMenuIcon} alt="" />
+      </div>
+
+      {isBurgerMenuOpen && (
+        <BurgerMenu isOpen={isBurgerMenuOpen} toggleMenu={toggleBurgerMenu} />
+      )}
     </div>
   );
 };

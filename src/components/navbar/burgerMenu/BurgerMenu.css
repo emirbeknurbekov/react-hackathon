@@ -1,0 +1,48 @@
+.burger-menu-button {
+  display: none;
+}
+.burger-menu {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  transition: right 0.3s ease;
+  z-index: 1;
+}
+
+.burger-menu.open {
+  right: 0;
+}
+
+.burger-menu-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.burger-menu-item {
+  margin: 10px 0;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px 0;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.bar.open {
+  transform: rotate(45deg);
+}

@@ -6,11 +6,12 @@ import carouselImageSecond from "../../../images/carousel-image-second.jpg";
 import { useNavigate } from "react-router-dom";
 
 import "./Carousel.css";
+import "./CarouselAdaptive.css";
 
 const CarouselHomePage = () => {
   const navigate = useNavigate();
   return (
-    <Carousel>
+    <Carousel className="carousel">
       <Carousel.Item>
         <img className="carousel-image" src={carouselImageFirst} alt="error" />
         <Carousel.Caption>

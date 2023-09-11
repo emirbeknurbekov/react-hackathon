@@ -1,0 +1,40 @@
+@media all and (max-width: 1122px) {
+  .navbar-items {
+    display: none;
+  }
+  .burger-menu-button {
+    display: block;
+  }
+}
+@media all and (max-width: 930px) {
+  .navbar-search__block {
+    display: none;
+  }
+  .navbar-account__block {
+    margin-left: 40%;
+    margin-bottom: 0;
+  }
+}
+@media all and (max-width: 622px) {
+  .navbar-account__block {
+    margin-left: 20%;
+  }
+}
+@media all and (max-width: 467px) {
+  .navbar-account__block {
+    margin-left: 10%;
+  }
+}
+@media all and (max-width: 467px) {
+  .navbar-account__block {
+    margin-left: 0;
+  }
+}
+@media all and (max-width: 400px) {
+  .navbar-account__item {
+    padding: 5px;
+  }
+  .navbar-account__item img {
+    width: 20px;
+  }
+}

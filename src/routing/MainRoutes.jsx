@@ -11,6 +11,7 @@ import RegisterPage from "../pages/RegisterPage";
 import EditProductPage from "../pages/editProductPage/EditProductPage";
 import OneProductPage from "../pages/OneProductPage/OneProductPage";
 import CartPage from "../pages/CartPage/CartPage";
+import FavoritesPage from "../pages/favoritesPage/FavoritesPage";
 
 const MainRoutes = () => {
   return (
@@ -22,6 +23,7 @@ const MainRoutes = () => {
         <Route path="/products" element={<ProductListPage />} />
         <Route path="/product/:id" element={<OneProductPage />} />
         <Route path="/cart" element={<CartPage />} />
+        <Route path="/favorites" element={<FavoritesPage />} />
       </Route>
 
       <Route path="/login" element={<LoginPage />} />
