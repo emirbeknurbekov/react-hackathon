@@ -111,7 +111,7 @@ const Navbar = () => {
         </li>
 
         <li onClick={() => navigate("/cart")} className="navbar-account__item">
-          <img src={cartIcon} alt="" />
+          <img onClick={() => navigate("/cart")} src={cartIcon} alt="" />
         </li>
         {user ? (
           <li
