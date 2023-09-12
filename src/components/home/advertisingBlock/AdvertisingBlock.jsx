@@ -4,6 +4,7 @@ import "./AdvertisingAdaptive.css";
 
 import advertisingIcon from "../../../icons/advertising-block__icon.svg";
 import advertisingIconDark from "../../../icons/advertising-arrow-icon-dark.svg";
+import { useNavigate } from "react-router-dom";
 
 const advertisingBlock = () => {
   return (

@@ -31,8 +31,8 @@ const ProductItem = ({ product }) => {
     height: "370px",
   };
   const { user } = useSelector((state) => state.user);
-  const { products } = useSelector((state) => state.cart.cart);
-  const { favorites } = useSelector((state) => state.favorites);
+  // const { products } = useSelector((state) => state.cart.cart);
+  // const { favorites } = useSelector((state) => state.favorites);
   const dispatch = useDispatch();
   const navigate = useNavigate();
 

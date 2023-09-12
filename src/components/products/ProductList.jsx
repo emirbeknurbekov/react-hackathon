@@ -49,6 +49,7 @@ const ProductList = () => {
       });
     }
   }, [gender]);
+
   useEffect(() => {
     const currentParams = Object.fromEntries([...searchParams]);
 

@@ -12,8 +12,6 @@ import { FormControl, InputLabel, MenuItem, Select } from "@mui/material";
 import { useDispatch } from "react-redux";
 import { createProduct } from "../../store/products/ProductAction";
 
-// TODO remove, this demo shouldn't need to reset the theme.
-
 const defaultTheme = createTheme();
 
 export default function AddProductPage() {

@@ -60,7 +60,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 }));
 
 const Navbar = () => {
-  const [isBurgerMenuOpen, setIsBurgerMenuOpen] = useState(false); // Состояние для бургер-меню
+  const [isBurgerMenuOpen, setIsBurgerMenuOpen] = useState(false);
 
   const toggleBurgerMenu = () => {
     setIsBurgerMenuOpen(!isBurgerMenuOpen);
@@ -98,9 +98,24 @@ const Navbar = () => {
         >
           Men
         </li>
-        <li className="navbar-item">Women</li>
-        <li className="navbar-item">Combos</li>
-        <li className="navbar-item">Joggers</li>
+        <li
+          onClick={() => navigate("/products?gender=women")}
+          className="navbar-item"
+        >
+          Women
+        </li>
+        <li
+          onClick={() => navigate("/products?category=combos")}
+          className="navbar-item"
+        >
+          Combos
+        </li>
+        <li
+          onClick={() => navigate("/products?category=joggers")}
+          className="navbar-item"
+        >
+          Joggers
+        </li>
       </ul>
       <div className="navbar-search__block">
         <Search>

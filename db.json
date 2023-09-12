@@ -2,21 +2,21 @@
   "clothes": [
     {
       "id": 1,
-      "title": "Shirt",
+      "title": "Jogger",
       "picture": "https://i.pinimg.com/564x/39/06/cf/3906cf6fe8fc597e2836d7fc8e4d9520.jpg",
       "description": "skfjgslja;lsdjfl",
       "price": 5200,
       "gender": "women",
-      "category": "shirts"
+      "category": "joggers"
     },
     {
       "id": 2,
-      "title": "Shirt",
+      "title": "Activewear",
       "picture": "https://i.pinimg.com/564x/a3/4c/2c/a34c2caa2ad3822bc03b4b5077f02431.jpg",
       "description": "skfjgslja;lsdjfl",
       "price": 5200,
       "gender": "women",
-      "category": "shirts"
+      "category": "activewear"
     },
     {
       "id": 3,
@@ -37,29 +37,29 @@
       "category": "shirts"
     },
     {
-      "title": "qwertyu",
+      "title": "Hoodie gray",
       "picture": "https://i.pinimg.com/564x/1f/5a/d4/1f5ad45e2dca29ed943dfebd00a729e6.jpg",
       "description": "qwertyiop",
       "price": 123456,
       "gender": "women",
-      "category": "shirts",
+      "category": "hoodies",
       "id": 6
     },
     {
-      "title": "asdf",
+      "title": "activewear",
       "picture": "https://i.pinimg.com/564x/74/7a/7f/747a7fb535d348acbad54a9982ca4aa8.jpg",
       "description": "1fdsaf",
       "price": 1324234,
-      "gender": "men",
-      "category": "boxers",
+      "gender": "women",
+      "category": "activewear",
       "id": 7
     },
     {
-      "title": "sadfas",
+      "title": "boxer",
       "picture": "https://i.pinimg.com/564x/dc/55/d6/dc55d69bab8b077cdbc12951c61e367f.jpg",
       "description": "ffffff",
       "price": 24231419,
-      "gender": "men",
+      "gender": "women",
       "category": "boxers",
       "id": 10
     },
@@ -71,6 +71,69 @@
       "gender": "men",
       "category": "joggers",
       "id": 11
+    },
+    {
+      "title": "Jeans",
+      "picture": "https://i.pinimg.com/564x/d0/b6/08/d0b60858d1d4a3aff7a05933cb00122e.jpg",
+      "description": "eeeeeeeeeeeeeeboy",
+      "price": 148,
+      "gender": "women",
+      "category": "jeans",
+      "id": 12
+    },
+    {
+      "title": "jeans with",
+      "picture": "https://i.pinimg.com/564x/f6/c9/8a/f6c98aac301758bd35f17b863b1a5950.jpg",
+      "description": "aaaaaaaaaaaaaa",
+      "price": 120,
+      "gender": "women",
+      "category": "jeans",
+      "id": 13
+    },
+    {
+      "title": "Hoodie black",
+      "picture": "https://i.pinimg.com/564x/2e/49/06/2e4906793f9f378d3a6209d44d940296.jpg",
+      "description": "ggggggggggg",
+      "price": 50,
+      "gender": "men",
+      "category": "hoodies",
+      "id": 14
+    },
+    {
+      "title": "black guy with Hoodie",
+      "picture": "https://i.pinimg.com/564x/b0/95/84/b09584e40236bbd26384d123684dcc98.jpg",
+      "description": "jjjjjjjjjjjj",
+      "price": 300,
+      "gender": "men",
+      "category": "hoodies",
+      "id": 15
+    },
+    {
+      "title": "Polo Shirt",
+      "picture": "https://i.pinimg.com/564x/c9/5b/8b/c95b8b10325ae0feefaa570fc5ac382c.jpg",
+      "description": "eeeeeeeeeeee",
+      "price": 290,
+      "gender": "men",
+      "category": "shirts",
+      "id": 16
+    },
+    {
+      "title": "Activewear ccc",
+      "picture": "https://i.pinimg.com/564x/fe/07/6f/fe076f98a70e9c6b7d09eb514cb9838a.jpg",
+      "description": "ririririririiiriirririr",
+      "price": 499,
+      "gender": "men",
+      "category": "activewear",
+      "id": 17
+    },
+    {
+      "title": "mango jeans",
+      "picture": "https://i.pinimg.com/564x/8c/bc/b5/8cbcb5b9330385b121edb8978c4ecb72.jpg",
+      "description": "iiiiiiiiii",
+      "price": 300,
+      "gender": "men",
+      "category": "jeans",
+      "id": 18
     }
   ]
 }
