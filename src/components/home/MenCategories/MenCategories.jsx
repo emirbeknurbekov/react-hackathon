@@ -45,7 +45,12 @@ const MenCategories = () => {
                   <h2 className="menctgrs__title__header"> Printed T-Shirts</h2>
                   <p className="menctgrs__title__descr">Explore Now!</p>
                 </div>
-                <button className="menctgrs__btn">
+                <button
+                  onClick={() =>
+                    navigate("/products?gender=men&category=shirts")
+                  }
+                  className="menctgrs__btn"
+                >
                   <img src={categoriesArrowIcon} alt="error" />
                 </button>
               </div>
@@ -60,7 +65,12 @@ const MenCategories = () => {
                   <h2 className="menctgrs__title__header">Plain T-Shirts</h2>
                   <p className="menctgrs__title__descr">Explore Now!</p>
                 </div>
-                <button className="menctgrs__btn">
+                <button
+                  onClick={() =>
+                    navigate("/products?gender=men&category=shirts")
+                  }
+                  className="menctgrs__btn"
+                >
                   <img src={categoriesArrowIcon} alt="error" />
                 </button>
               </div>
@@ -75,7 +85,12 @@ const MenCategories = () => {
                   <h2 className="menctgrs__title__header">Polo T-Shirts</h2>
                   <p className="menctgrs__title__descr">Explore Now!</p>
                 </div>
-                <button className="menctgrs__btn">
+                <button
+                  onClick={() =>
+                    navigate("/products?gender=men&category=shirts")
+                  }
+                  className="menctgrs__btn"
+                >
                   <img src={categoriesArrowIcon} alt="error" />
                 </button>
               </div>
@@ -92,7 +107,12 @@ const MenCategories = () => {
                   </h2>
                   <p className="menctgrs__title__descr">Explore Now!</p>
                 </div>
-                <button className="menctgrs__btn">
+                <button
+                  onClick={() =>
+                    navigate("/products?gender=men&category=hoodies")
+                  }
+                  className="menctgrs__btn"
+                >
                   <img src={categoriesArrowIcon} alt="error" />
                 </button>
               </div>
@@ -107,7 +127,12 @@ const MenCategories = () => {
                   <h2 className="menctgrs__title__header">Jeans</h2>
                   <p className="menctgrs__title__descr">Explore Now!</p>
                 </div>
-                <button className="menctgrs__btn">
+                <button
+                  onClick={() =>
+                    navigate("/products?gender=men&category=jeans")
+                  }
+                  className="menctgrs__btn"
+                >
                   <img src={categoriesArrowIcon} alt="error" />
                 </button>
               </div>
@@ -122,7 +147,12 @@ const MenCategories = () => {
                   <h2 className="menctgrs__title__header">Activewear</h2>
                   <p className="menctgrs__title__descr">Explore Now!</p>
                 </div>
-                <button className="menctgrs__btn">
+                <button
+                  onClick={() =>
+                    navigate("/products?gender=men&category=activewear")
+                  }
+                  className="menctgrs__btn"
+                >
                   <img src={categoriesArrowIcon} alt="error" />
                 </button>
               </div>

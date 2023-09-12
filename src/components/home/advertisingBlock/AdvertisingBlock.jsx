@@ -6,7 +6,8 @@ import advertisingIcon from "../../../icons/advertising-block__icon.svg";
 import advertisingIconDark from "../../../icons/advertising-arrow-icon-dark.svg";
 import { useNavigate } from "react-router-dom";
 
-const advertisingBlock = () => {
+const AdvertisingBlock = () => {
+  const navigate = useNavigate();
   return (
     <>
       <div className="home-pages__advertising__block">
@@ -27,7 +28,10 @@ const advertisingBlock = () => {
                 <div className="home-pages__advertising__block_first__icon">
                   <img src={advertisingIcon} alt="error" />
                 </div>
-                <button className="home-pages__advertising__block_first__button">
+                <button
+                  onClick={() => navigate("/products")}
+                  className="home-pages__advertising__block_first__button"
+                >
                   SHOP NOW
                 </button>
               </div>
@@ -47,7 +51,10 @@ const advertisingBlock = () => {
                 <div className="home-pages__advertising__block_first__icon_second">
                   <img src={advertisingIcon} alt="error" />
                 </div>
-                <button className="home-pages__advertising__block_first__button_second">
+                <button
+                  onClick={() => navigate("/products")}
+                  className="home-pages__advertising__block_first__button_second"
+                >
                   SHOP NOW
                 </button>
               </div>
@@ -67,7 +74,10 @@ const advertisingBlock = () => {
                 <div className="home-pages__advertising__block_first__icon_third">
                   <img src={advertisingIconDark} alt="error" />
                 </div>
-                <button className="home-pages__advertising__block_first__button_third">
+                <button
+                  onClick={() => navigate("/products")}
+                  className="home-pages__advertising__block_first__button_third"
+                >
                   SHOP NOW
                 </button>
               </div>
@@ -89,7 +99,10 @@ const advertisingBlock = () => {
                 <div className="homepages__advertising__block_second__icon">
                   <img src={advertisingIconDark} alt="error" />
                 </div>
-                <button className="homepages__advertising__block_second__btn">
+                <button
+                  onClick={() => navigate("/products")}
+                  className="homepages__advertising__block_second__btn"
+                >
                   SHOP NOW
                 </button>
               </div>
@@ -109,7 +122,10 @@ const advertisingBlock = () => {
                 <div className="homepages__advertising__block_second__icon__second">
                   <img src={advertisingIconDark} alt="error" />
                 </div>
-                <button className="homepages__advertising__block_second__btn__second">
+                <button
+                  onClick={() => navigate("/products")}
+                  className="homepages__advertising__block_second__btn__second"
+                >
                   SHOP NOW
                 </button>
               </div>
@@ -121,4 +137,4 @@ const advertisingBlock = () => {
   );
 };
 
-export default advertisingBlock;
+export default AdvertisingBlock;
