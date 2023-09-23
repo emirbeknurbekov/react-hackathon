@@ -100,7 +100,7 @@
       "id": 14
     },
     {
-      "title": "black guy with Hoodie",
+      "title": "white guy with Hoodie",
       "picture": "https://i.pinimg.com/564x/b0/95/84/b09584e40236bbd26384d123684dcc98.jpg",
       "description": "jjjjjjjjjjjj",
       "price": 300,
@@ -127,12 +127,12 @@
       "id": 17
     },
     {
-      "title": "mango jeans",
-      "picture": "https://i.pinimg.com/564x/8c/bc/b5/8cbcb5b9330385b121edb8978c4ecb72.jpg",
-      "description": "iiiiiiiiii",
-      "price": 300,
+      "title": "ddddd",
+      "picture": "https://i.pinimg.com/564x/f6/c9/8a/f6c98aac301758bd35f17b863b1a5950.jpg",
+      "description": "lkadsjfksjdlfa",
+      "price": 398,
       "gender": "men",
-      "category": "jeans",
+      "category": "hoodies",
       "id": 18
     }
   ]
